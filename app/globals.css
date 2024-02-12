@@ -9,4 +9,5 @@ html {
 
 * {
   font-family: 'Kanit', sans-serif; /* Set the font to Kanit with a fallback to sans-serif */
+  color: white;
 }
