@@ -26,7 +26,7 @@ const ContactIcon = ({ iconsName }: Props) => {
     const getContentPopover = (): string => {
         if (iconsName === "phone") return "เบอร์โทรศัพท์ : 080-08430371";
         if (iconsName === "line") return "ไลน์ไอดี : newlou234";
-        if (iconsName === "github") return "github : https://github.com/newpee23?tab=repositories";
+        if (iconsName === "github") return "github : github.com/newpee23";
         if (iconsName === "mail") return "อีเมล์ : newp231612@gmail.com";
 
         return "";
@@ -36,7 +36,7 @@ const ContactIcon = ({ iconsName }: Props) => {
     const contentPopover = getContentPopover();
 
     return icon ? (
-        <div className="z-[1] mx-2  hover:cursor-pointer">
+        <div className="z-[1] mx-3  hover:cursor-pointer">
             <Popover content={contentPopover} trigger="hover">
                 <div className="hero-socials">
                     <Image

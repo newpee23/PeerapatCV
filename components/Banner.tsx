@@ -1,16 +1,14 @@
 "use client";
 import Image from "next/image";
-
+import ContactIcon from "./ui/contactIcon";
 // images
 import me from "@/public/me.png";
-import ContactIcon from "./ui/contactIcon";
-
 
 const Banner = () => {
     return (
         <section id="banner">
-            <div className="flex flex-row items-center justify-center px-20 mt-[150px] z-[20] ">
-                <div className="flex flex-col  justify-center  text-center">
+            <div className="flex flex-row items-center justify-center px-20 mt-[150px] z-[20]">
+                <div className="flex flex-col justify-center text-center">
                     <div className="justify-center flex">
                         <Image
                             className="transition-transform transform hover:scale-110 z-10"
@@ -41,15 +39,12 @@ const Banner = () => {
                         <p className="text-gray-200 max-w-[600px] text-xl">
                             การติดต่อ
                         </p>
-                        <div className="max-w-[600px] w-full flex justify-center mt-3">
+                        <div className="max-w-[600px] w-full flex justify-center mt-5">
                             <ContactIcon iconsName="phone"/>
                             <ContactIcon iconsName="line"/>
                             <ContactIcon iconsName="github"/>
                             <ContactIcon iconsName="mail"/>
                         </div>
-                        {/* <button className="z-[1] padding-20 hover:bg-white rounded-3xl  text-white font-semibold hover:text-black py-3 px-10  border-[0.1px] border-white hover:border-transparent">
-                            Contact Me
-                        </button> */}
                     </div>
                 </div>
             </div>

@@ -4,7 +4,7 @@ import StarsBackground from "@/components/main/StarsBackground";
 
 // CSS
 import "./globals.css";
-import "@/style/banner.css";
+import "@/style/style.css";
 import Navber from "@/components/Navber";
 
 const inter = Inter({ subsets: ["latin"] });
