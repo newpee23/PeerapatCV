@@ -1,6 +1,11 @@
 "use client";
 import Image from "next/image";
+
+// images
 import me from "@/public/me.png";
+import ContactIcon from "./ui/contactIcon";
+
+
 const Banner = () => {
     return (
         <section id="banner">
@@ -21,20 +26,30 @@ const Banner = () => {
                     </div>
                     <p className="text-2xl font-medium tracking-tighter  text-gray-200 max-w-[600px]">
                         Fullstack Developer {" "}
-                        <span className="text-transparent text-orange-400 font-medium">
+                        <span className="text-orange-400 font-medium">
                             (NextJs,ReactJs,NodeJs)
                         </span>
                     </p>
-                    <p className="text-md text-gray-200 my-5 max-w-[600px]">
-                        Fullstack Developer ประสบการณ์ 1.8 ปี อายุ 24 ปี โดยประเภทโปรเจคที่รับผิดชอบได้แก่ POS, ERP, CRM, ระบบคลีนิค, เขียน RestApi ให้ Appication ซึ่ง stack ที่ใช้ปัจจุบันมี 2 ตัวได้แก่
-                        1. Reactjs + Nodejs 2.php codeigniter3
-                    </p>
-                    <div className="text-md flex justify-center">
-                        <button
-                            className="z-[1] padding-20 hover:bg-white rounded-3xl  text-white font-semibold hover:text-black py-3 px-10  border-[0.1px] border-white hover:border-transparent "
-                        >
+                    <div className="text-justify">
+                        <p className="text-indent-2 text-base text-gray-200 my-3 max-w-[600px]">
+                            Fullstack Developer ประสบการณ์ 1.8 ปี อายุ 24 ปี โดยประเภทโปรเจคที่รับผิดชอบ ได้แก่ POS, ERP, CRM, ระบบคลีนิค, เขียน RestApi ให้ Appication ซึ่ง stack ที่ใช้ปัจจุบัน
+                            มี 2 ตัว ได้แก่ 1). Reactjs + Nodejs 2).php codeigniter3 เคยดูแลโปรเจคพร้อมกันสูงสุด
+                            4 โปรเจคและดูแล developer ใหม่ 2 คน
+                        </p>
+                    </div>
+                    <div className="text-md justify-center my-3">
+                        <p className="text-gray-200 max-w-[600px] text-xl">
+                            การติดต่อ
+                        </p>
+                        <div className="max-w-[600px] w-full flex justify-center mt-3">
+                            <ContactIcon iconsName="phone"/>
+                            <ContactIcon iconsName="line"/>
+                            <ContactIcon iconsName="github"/>
+                            <ContactIcon iconsName="mail"/>
+                        </div>
+                        {/* <button className="z-[1] padding-20 hover:bg-white rounded-3xl  text-white font-semibold hover:text-black py-3 px-10  border-[0.1px] border-white hover:border-transparent">
                             Contact Me
-                        </button>
+                        </button> */}
                     </div>
                 </div>
             </div>

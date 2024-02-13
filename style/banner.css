@@ -1,0 +1,22 @@
+.text-indent-2 {
+  text-indent: 2em;
+}
+
+.rounded-image {
+  border-radius: 50%; /* ทำให้มีรูปร่างเป็นวงกลม */
+}
+
+.hero-socials img:hover {
+    padding: 3px;
+    box-shadow: 0 3px 10px 0 rgba(242, 242, 242, 0.37);
+}
+
+.hero-socials img {
+  padding: 8px;
+  background: #ffff;
+
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border: 1px 0 solid rgba(255, 255, 255, 0.18);
+  border-radius: 50px;
+}
