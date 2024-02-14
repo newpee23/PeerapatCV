@@ -1,4 +1,4 @@
-import { Divider } from 'antd';
+import { Divider } from "antd";
 
 type Props = {
     text: string;
@@ -6,7 +6,7 @@ type Props = {
 
 const DividerUi = ({ text }: Props) => {
     return (
-        <Divider>{text}</Divider>
+        <Divider className="text-white">{text}</Divider>
     )
 }
 

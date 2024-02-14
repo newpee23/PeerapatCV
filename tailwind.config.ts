@@ -23,6 +23,9 @@ const config: Config = {
         lgl: "1024px",
         xl: "1280px",
       },
+      boxShadow: {
+        shadowOne: "1.5px 1.5px 1.5px  #1c1e22, -1.5px -1.5px 1.5px #262a2e",
+      },
     },
   },
   plugins: [],

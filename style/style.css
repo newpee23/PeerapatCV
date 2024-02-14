@@ -10,12 +10,12 @@
 .hero-socials img:hover {
   padding: 3px;
   box-shadow: 0 3px 10px 0 rgba(242, 242, 242, 0.37);
+  transition-duration: 300ms;
 }
 
 .hero-socials img {
   padding: 8px;
   background: #ffff;
-
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
   border: 1px 0 solid rgba(255, 255, 255, 0.18);
@@ -25,7 +25,8 @@
 :where(.css-dev-only-do-not-override-1rqnfsa).ant-divider-horizontal.ant-divider-with-text::before,
 :where(.css-dev-only-do-not-override-1rqnfsa).ant-divider-horizontal.ant-divider-with-text::after {
   background-color: #fb923c;
-  max-width: 200px;
+  max-width: 500px;
+  height: 3px;
 }
 
 .ant-divider.css-dev-only-do-not-override-1rqnfsa.ant-divider-horizontal.ant-divider-with-text.ant-divider-with-text-center{
@@ -33,5 +34,6 @@
 }
 
 span.ant-divider-inner-text {
-  font-size: 23px;
+  font-size: 25px;
+  color: white;
 }

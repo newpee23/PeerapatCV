@@ -45,7 +45,7 @@ const ContactIcon = ({ iconsName }: Props) => {
                         width={100}
                         height={100}
                         sizes="100vw"
-                        className="w-[55px] h-auto transition-transform transform hover:scale-125"
+                        className="w-[55px] h-auto transition-transform transform hover:scale-125 duration-300"
                         priority={true}
                     />
                 </div>

@@ -11,7 +11,7 @@ const Banner = () => {
                 <div className="flex flex-col justify-center text-center">
                     <div className="justify-center flex">
                         <Image
-                            className="transition-transform transform hover:scale-110 z-10"
+                            className="transition-transform transform hover:scale-110 z-10 duration-300"
                             priority
                             src={me}
                             height={300}
@@ -19,12 +19,12 @@ const Banner = () => {
                             alt="Peerapat Mueangmo"
                         />
                     </div>
-                    <div className="flex flex-col gap-6 mt-6 mdl:mt-10 cursor-pointer animate-bounce tracking-tighter text-3xl mdl:text-5xl font-semibold text-white max-w-[600px] w-auto h-auto">
+                    <div className="flex flex-col gap-6 mt-6 mdl:mt-14 cursor-pointer animate-bounce tracking-tighter text-3xl mdl:text-5xl font-semibold text-white max-w-[600px] w-auto h-auto">
                         พีรพัฒน์ เหมืองหม้อ
                     </div>
                     <p className="text-2xl font-medium tracking-tighter  text-gray-200 max-w-[600px]">
                         Fullstack Developer {" "}
-                        <span className="text-orange-400 font-medium">
+                        <span className="text-orange-400 font-medium tracking-tighter">
                             (NextJs,ReactJs,NodeJs)
                         </span>
                     </p>
@@ -35,7 +35,7 @@ const Banner = () => {
                             4 โปรเจคและดูแล developer ใหม่ 2 คน
                         </p>
                     </div>
-                    <div className="text-md justify-center my-3">
+                    <div className="text-md justify-center my-5">
                         <p className="text-gray-200 max-w-[600px] text-xl">
                             การติดต่อ
                         </p>
