@@ -1,10 +1,11 @@
 interface Prop {
     title: string;
+    subTitle: string;
     detail: string;
     description: string
 }
 
-const ResumeCard = ({ title, detail, description }: Prop) => {
+const ResumeCard = ({ title, subTitle, detail, description }: Prop) => {
     return (
         <div className="w-full h-1/3 group flex">
             <div className="w-10 h-[6px] bgOpacity mt-16 relative">
@@ -18,6 +19,9 @@ const ResumeCard = ({ title, detail, description }: Prop) => {
                         <h3 className="text-xl md:text-2xl font-semibold">
                             {title}
                         </h3>
+                        <p className="text-sm mt-2 text-gray-400 group-hover:text-white duration-300">
+                            {subTitle}
+                        </p>
                     </div>
                     <div>
                         <p className="px-4 py-2 text-orange-500 bg-black bg-opacity-25 rounded-lg flex justify-center items-center shadow-shadowOne text-sm font-medium">

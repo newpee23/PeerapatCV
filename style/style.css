@@ -33,6 +33,9 @@
   justify-content: center;
 }
 
+.border-l-solid {
+  border-right: 1px solid;
+}
 span.ant-divider-inner-text {
   font-size: 25px;
   color: white;

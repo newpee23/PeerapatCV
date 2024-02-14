@@ -16,7 +16,7 @@ interface iconsArrType {
     icon: React.ElementType;
 }
 
-const dataIcons: iconsArrType[] = [
+const dataIconsSkill: iconsArrType[] = [
     {
         id: 1,
         title: "Nextjs",
@@ -112,7 +112,10 @@ const dataIcons: iconsArrType[] = [
         title: "Prisma",
         icon: SiPrisma
     }
-    , {
+]
+
+const dataIconsTool: iconsArrType[] = [
+    {
         id: 20,
         title: "Mysql",
         icon: SiMysql
@@ -201,17 +204,41 @@ const dataIcons: iconsArrType[] = [
 
 const SkillIcons = () => {
     return (
-        <div className="flex flex-wrap pb-7 items-center justify-center px-20 max-w-[1200px] bg-white bg-blend-normal bg-opacity-5 rounded-md shadow-lg">
-            {dataIcons.map((iconData) => (
-                <div key={iconData.id} className="z-[1] cursor-pointer hover:-translate-y-2 transition-all duration-300 hover:text-orange-500">
-                    <div className="m-8 mb-1 w-16 h-16 shadow-lg bg-black bg-opacity-25 text-xl inline-flex items-center justify-center rounded-md hover:bg-opacity-40 ">
-                        <iconData.icon className="w-[50px] h-auto" />
-                    </div>
-                    <div className="text-center">
-                        <span>{iconData.title}</span>
-                    </div>
+        <div className="flex py-7 items-start justify-center max-w-[1200px] bg-white bg-blend-normal bg-opacity-5 rounded-md shadow-lg">
+            <div className="w-full lg:w-6/12 border-l-solid">
+                <div className="text-center">
+                    <p className="mb-3 text-lg text-white">ภาษา</p>
                 </div>
-            ))}
+                <div className="flex justify-start flex-wrap mt-[-20px] px-10">
+                    {dataIconsSkill.map((iconData) => (
+                        <div key={iconData.id} className="z-[1] cursor-pointer hover:-translate-y-2 transition-all duration-300 hover:text-orange-500">
+                            <div className="m-8 mb-1 w-16 h-16 shadow-lg bg-black bg-opacity-25 text-xl inline-flex items-center justify-center rounded-md hover:bg-opacity-40 ">
+                                <iconData.icon className="w-[50px] h-auto" />
+                            </div>
+                            <div className="text-center">
+                                <span>{iconData.title}</span>
+                            </div>
+                        </div>
+                    ))}
+                </div>
+            </div>
+            <div className="w-full lg:w-6/12">
+                <div className="text-center">
+                    <p className="mb-3 text-lg text-white">เครื่องมือ</p>
+                </div>
+                <div className="flex justify-start flex-wrap mt-[-20px] px-10">
+                    {dataIconsTool.map((iconData) => (
+                        <div key={iconData.id} className="z-[1] cursor-pointer hover:-translate-y-2 transition-all duration-300 hover:text-orange-500">
+                            <div className="m-8 mb-1 w-16 h-16 shadow-lg bg-black bg-opacity-25 text-xl inline-flex items-center justify-center rounded-md hover:bg-opacity-40 ">
+                                <iconData.icon className="w-[50px] h-auto" />
+                            </div>
+                            <div className="text-center">
+                                <span>{iconData.title}</span>
+                            </div>
+                        </div>
+                    ))}
+                </div>
+            </div>
         </div>
     )
 }

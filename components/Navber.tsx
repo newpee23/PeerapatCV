@@ -7,7 +7,7 @@ const Navber = () => {
     return (
         <nav className="w-full h-[65px] bg-['#ffff'] fixed backdrop-blur-sm z-50 px-10">
             <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[10px]">
-                <Link href="/" className="h-auto w-auto flex flex-row items-center">
+                <Link href="#banner" scroll={true} className="h-auto w-auto flex flex-row items-center">
                     <Image
                         src={logo}
                         alt="logo"
@@ -19,12 +19,21 @@ const Navber = () => {
                     />
                 </Link>
                 <div className="flex flex-row gap-5">
-                    <div className=" z-[1] bg-transparent  padding-10 cursor-pointer bg-black hover:bg-[#2E2E2E] rounded-xl  text-white  py-2 px-5">
-                        Banner
-                    </div>
-                    <div className=" z-[1] bg-transparent  padding-10 cursor-pointer bg-black hover:bg-[#2E2E2E] rounded-xl  text-white  py-2 px-5">
-                        Contact
-                    </div>
+                    <Link href="#banner" scroll={true} className="h-auto w-auto flex flex-row items-center">
+                        <div className=" z-[1] bg-transparent  padding-10 cursor-pointer bg-black hover:bg-[#2E2E2E] rounded-xl  text-white  py-2 px-5 duration-300 hover:text-orange-500">
+                            Profile
+                        </div>
+                    </Link>
+                    <Link href="#skillAndTool" scroll={true} className="h-auto w-auto flex flex-row items-center">
+                        <div className=" z-[1] bg-transparent  padding-10 cursor-pointer bg-black hover:bg-[#2E2E2E] rounded-xl  text-white  py-2 px-5 duration-300 hover:text-orange-500">
+                            Skill
+                        </div>
+                    </Link>
+                    <Link href="#myResume" scroll={true} className="h-auto w-auto flex flex-row items-center">
+                        <div className=" z-[1] bg-transparent  padding-10 cursor-pointer bg-black hover:bg-[#2E2E2E] rounded-xl  text-white  py-2 px-5 duration-300 hover:text-orange-500">
+                            My Resume
+                        </div>
+                    </Link>
                 </div>
             </div>
         </nav>
