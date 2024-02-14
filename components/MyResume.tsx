@@ -19,10 +19,10 @@ const MyResume = () => {
                 <div className="flex flex-wrap pb-7 items-center justify-center w-full max-w-[1200px] bg-white bg-blend-normal bg-opacity-5 rounded-md shadow-lg">
                     <ul className="w-full grid grid-cols-1 md:grid-cols-2">
                         <li onClick={() => { setEducationData(true); setSkillData(false) }} className={`${educationData ? "border-orange-400 rounded-lg" : "border-transparent"} z-[1] hover:text-orange-500 w-full h-20 bg-black bg-opacity-25 text-xl text-gray-300 flex justify-center cursor-pointer hover:bg-opacity-40 duration-300 items-center border-[1px]`}>
-                            Education
+                            การศึกษา
                         </li>
                         <li onClick={() => { setEducationData(false); setSkillData(true) }} className={`${skillData ? "border-orange-400  rounded-lg" : "border-transparent"} z-[1] hover:text-orange-500 w-full h-20 bg-black bg-opacity-25 text-xl text-gray-300 flex justify-center cursor-pointer hover:bg-opacity-40 duration-300 items-center border-[1px]`}>
-                            Professional Skills
+                        ประสบการณ์ทำงาน
                         </li>
                     </ul>
                     <div className="px-20">
