@@ -34,6 +34,11 @@ const Navber = () => {
                             My Resume
                         </div>
                     </Link>
+                    <Link href="#performanceWork" scroll={true} className="h-auto w-auto flex flex-row items-center">
+                        <div className=" z-[1] bg-transparent  padding-10 cursor-pointer bg-black hover:bg-[#2E2E2E] rounded-xl  text-white  py-2 px-5 duration-300 hover:text-orange-500">
+                            Performance
+                        </div>
+                    </Link>
                 </div>
             </div>
         </nav>

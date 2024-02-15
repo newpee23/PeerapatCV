@@ -1,5 +1,6 @@
 import Banner from "@/components/Banner";
 import MyResume from "@/components/MyResume";
+import PerformanceWork from "@/components/PerformanceWork";
 import SkillAndTool from "@/components/SkillAndTool";
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
         <Banner />
         <SkillAndTool />
         <MyResume />
+        <PerformanceWork />
       </div>
     </main>
   );

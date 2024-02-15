@@ -36,7 +36,20 @@
 .border-l-solid {
   border-right: 1px solid;
 }
+
 span.ant-divider-inner-text {
   font-size: 25px;
   color: white;
+}
+
+.border-radius-my-resume-left {
+  border-radius: 5px 0 0 0;
+}
+
+.border-radius-my-resume-right {
+  border-radius: 0 5px 0 0;
+}
+
+.ant-carousel.css-dev-only-do-not-override-1rqnfsa {
+  width: 100%;
 }

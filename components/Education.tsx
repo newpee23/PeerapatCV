@@ -3,7 +3,7 @@ import ResumeCard from "./ui/ResumeCard";
 const Education = () => {
 
     const handleDownloadPDF = () => {
-        const pdfUrl = '/transcript.pdf';
+        const pdfUrl = 'pdf/transcript.pdf';
         const a = document.createElement('a');
         a.href = pdfUrl;
         a.download = 'transcript.pdf';
@@ -22,13 +22,13 @@ const Education = () => {
                 <ResumeCard
                     title="มหาวิทยาลัยพะเยา"
                     subTitle="University of Phayao"
-                    detail="3.33 GPA"
+                    gpa="3.33 GPA"
                     description="คณะเทคโนโลยีสารสนเทศและการสื่อสาร"
                 />
                 <ResumeCard
                     title="โรงเรียนพิริยาลัยจังหวัดแพร่"
                     subTitle="Piriyalai School Phrae"
-                    detail="ไม่ระบุ"
+                    gpa="ไม่ระบุ"
                     description="แผนศิลป์คอมพิวเตอร์"
                 />
             </div>
