@@ -4,7 +4,7 @@ import { BiLogoTypescript, BiLogoRedux, BiLogoPostgresql, BiLogoMongodb } from "
 import { RiJavascriptFill, RiAngularjsFill } from "react-icons/ri";
 import { IoLogoHtml5, IoLogoCss3 } from "react-icons/io";
 import { BsFillBootstrapFill } from "react-icons/bs";
-import { SiTailwindcss, SiAntdesign, SiMui, SiReactquery ,SiJquery, SiExpress, SiCodeigniter, SiPrisma, SiMysql, SiFirebase, SiBitbucket, SiGithub, SiSourcetree, SiJira, SiMicrosoftsqlserver, SiAdminer, SiFilezilla, SiXampp } from "react-icons/si";
+import { SiTailwindcss, SiAntdesign, SiPostman, SiMui, SiReactquery, SiJquery, SiExpress, SiCodeigniter, SiPrisma, SiMysql, SiFirebase, SiBitbucket, SiGithub, SiSourcetree, SiJira, SiMicrosoftsqlserver, SiAdminer, SiFilezilla, SiXampp } from "react-icons/si";
 import { VscJson } from "react-icons/vsc";
 import { DiPhp } from "react-icons/di";
 import { FaAws } from "react-icons/fa";
@@ -40,7 +40,7 @@ const dataIconsSkill: iconsArrType[] = [
     , {
         id: 5,
         title: "React Query",
-        icon: SiReactquery 
+        icon: SiReactquery
     }
     , {
         id: 6,
@@ -202,8 +202,13 @@ const dataIconsTool: iconsArrType[] = [
     }
     , {
         id: 37,
-        title: "xampp",
+        title: "Xampp",
         icon: SiXampp
+    }
+    , {
+        id: 38,
+        title: "Postman",
+        icon: SiPostman
     }
 ]
 
@@ -217,7 +222,7 @@ const SkillIcons = () => {
                 <div className="flex justify-start flex-wrap mt-[-20px] px-10">
                     {dataIconsSkill.map((iconData) => (
                         <div key={iconData.id} className="z-[1] hover:-translate-y-2 transition-all duration-300 hover:text-orange-500">
-                            <div className="m-8 mb-1 w-16 h-16 shadow-lg bg-black bg-opacity-25 text-xl inline-flex items-center justify-center rounded-md hover:bg-opacity-40 ">
+                            <div className="m-8 mb-1 w-16 h-16 shadow-boxShadow bg-black bg-opacity-25 text-xl inline-flex items-center justify-center rounded-md hover:bg-opacity-40 ">
                                 <iconData.icon className="w-[50px] h-auto" />
                             </div>
                             <div className="text-center">

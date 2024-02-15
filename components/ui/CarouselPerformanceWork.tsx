@@ -1,36 +1,34 @@
-import React from 'react';
-import { Carousel } from 'antd';
+import React from "react";
+import Image from "next/image";
 
-const contentStyle: React.CSSProperties = {
-    margin: 0,
-    height: '160px',
-    color: '#fff',
-    lineHeight: '160px',
-    textAlign: 'center',
-    background: '#364d79',
-};
+// images
+import me from "@/public/Screenshot.png";
+import ProjectCard from "./ProjectCard";
+import { Carousel } from "antd";
 
-const App: React.FC = () => {
-    const onChange = (currentSlide: number) => {
-        console.log(currentSlide);
-    };
+const CarouselPerformanceWork = () => {
 
     return (
-        <Carousel afterChange={onChange} className="z-[1]">
-            <div>
-                <p className="mb-3 text-lg text-white">ตัวอย่างผลงาน (Nextjs , Reactjs , Nodejs)</p>
+
+        <Carousel className="text-white py-8">
+            <div className="carousel-grid gap-5 grid-cols-1 sml:grid-cols-3 px-20">
+                <ProjectCard />
+                <ProjectCard />
+                <ProjectCard />
+                <ProjectCard />
+                <ProjectCard />
+                <ProjectCard />
             </div>
-            <div>
-                <h3 style={contentStyle}>2</h3>
-            </div>
-            <div>
-                <h3 style={contentStyle}>3</h3>
-            </div>
-            <div>
-                <h3 style={contentStyle}>4</h3>
+            <div className="carousel-grid gap-5 grid-cols-1 sml:grid-cols-3 px-20">
+                <ProjectCard />
+                <ProjectCard />
+                <ProjectCard />
+                <ProjectCard />
+                <ProjectCard />
+                <ProjectCard />
             </div>
         </Carousel>
     );
 };
 
-export default App;
+export default CarouselPerformanceWork;
