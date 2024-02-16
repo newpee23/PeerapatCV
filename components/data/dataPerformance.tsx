@@ -8,16 +8,19 @@ import { GrReactjs } from "react-icons/gr";
 
 // Images
 import me from "@/public/Screenshot.png";
-import image5 from "@/public/imgProject/fullStarckAuthtenJwtMongood/1.png"
-import image6 from "@/public/imgProject/vitejsCrudMysql/1.png"
-import image7 from "@/public/imgProject/nextJsZustandTS/1.png"
-import image8 from "@/public/imgProject/ViteJs-ReactThunk-Cart_Vitejs-ReactToolkit-Cart_Vitejs-Typescript-ReduxToolkit-Cart/3.png"
-import image9 from "@/public/imgProject/ViteJs-ReactThunk-Cart_Vitejs-ReactToolkit-Cart_Vitejs-Typescript-ReduxToolkit-Cart/2.png"
-import image10 from "@/public/imgProject/ViteJs-ReactThunk-Cart_Vitejs-ReactToolkit-Cart_Vitejs-Typescript-ReduxToolkit-Cart/1.png"
-import image11 from "@/public/imgProject/vitejsCrudMysql/1.png"
-import image12 from "@/public/imgProject/vitejsWeatherApp/1.png"
-import image13 from "@/public/imgProject/todolistStorageKey/1.png"
-import image14 from "@/public/imgProject/reactRestapiPokeapi/2.png"
+import image2 from "@/public/imgProject/nextjsPOS/1.png";
+import image3 from "@/public/imgProject/front-pver/1.png";
+import image4 from "@/public/imgProject/backendPver/1.png";
+import image5 from "@/public/imgProject/fullStarckAuthtenJwtMongood/1.jpg";
+import image6 from "@/public/imgProject/vitejsCrudMysql/1.png";
+import image7 from "@/public/imgProject/nextJsZustandTS/1.png";
+import image8 from "@/public/imgProject/ViteJs-ReactThunk-Cart_Vitejs-ReactToolkit-Cart_Vitejs-Typescript-ReduxToolkit-Cart/3.png";
+import image9 from "@/public/imgProject/ViteJs-ReactThunk-Cart_Vitejs-ReactToolkit-Cart_Vitejs-Typescript-ReduxToolkit-Cart/2.png";
+import image10 from "@/public/imgProject/ViteJs-ReactThunk-Cart_Vitejs-ReactToolkit-Cart_Vitejs-Typescript-ReduxToolkit-Cart/1.png";
+import image11 from "@/public/imgProject/vitejsCrudMysql/1.png";
+import image12 from "@/public/imgProject/vitejsWeatherApp/1.png";
+import image13 from "@/public/imgProject/todolistStorageKey/1.png";
+import image14 from "@/public/imgProject/reactRestapiPokeapi/2.png";
 
 export interface performanceArrType {
     id: number;
@@ -64,7 +67,7 @@ export const dataPerformanceWorkPage1: performanceArrType[] = [
     },
     {
         id: 2,
-        image: me,
+        image: image2,
         title: "รายละเอียด",
         detail: "เป็นโปรเจคที่เกี่ยวกับระบบ POS ขนาดเล็กประกอบ ไปด้วย ระบบขาย ระบบจัดการข้อมูล และรายงาน",
         detailIcon: "เทคโนโลยีหลักที่ใช้",
@@ -113,7 +116,7 @@ export const dataPerformanceWorkPage1: performanceArrType[] = [
     },
     {
         id: 3,
-        image: me,
+        image: image3,
         title: "รายละเอียด",
         detail: "เป็นโปรเจคที่เกี่ยวกับ Frontend ระบบบันทึกข้อมูล ที่มีการจัดการฟอร์มบันทึกข้อมูลที่มีหลายหน้า",
         detailIcon: "เทคโนโลยีหลักที่ใช้",
@@ -146,7 +149,7 @@ export const dataPerformanceWorkPage1: performanceArrType[] = [
     },
     {
         id: 4,
-        image: me,
+        image: image4,
         title: "รายละเอียด",
         detail: "เป็นโปรเจคที่เกี่ยวกับ Backend ระบบบันทึกข้อมูล ที่มีการจัดการฟอร์มบันทึกข้อมูลที่มีหลายหน้า",
         detailIcon: "เทคโนโลยีหลักที่ใช้",
