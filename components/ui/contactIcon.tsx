@@ -26,7 +26,7 @@ const ContactIcon = ({ iconsName }: Props) => {
     const getContentPopover = (): string => {
         if (iconsName === "phone") return "เบอร์โทรศัพท์ : 080-08430371";
         if (iconsName === "line") return "ไลน์ไอดี : newlou234";
-        if (iconsName === "github") return "github : github.com/newpee23";
+        if (iconsName === "github") return "profile : github.com/newpee23";
         if (iconsName === "mail") return "อีเมล์ : newp231612@gmail.com";
 
         return "";

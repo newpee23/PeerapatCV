@@ -1,31 +1,27 @@
-import React from "react";
-import Image from "next/image";
-
+import { dataPerformanceWorkPage1, dataPerformanceWorkPage2, dataPerformanceWorkPage3 } from "../data/dataPerformance";
 // images
-import me from "@/public/Screenshot.png";
 import ProjectCard from "./ProjectCard";
 import { Carousel } from "antd";
+
 
 const CarouselPerformanceWork = () => {
 
     return (
-
         <Carousel className="text-white py-8">
             <div className="carousel-grid gap-5 grid-cols-1 sml:grid-cols-3 px-20">
-                <ProjectCard />
-                <ProjectCard />
-                <ProjectCard />
-                <ProjectCard />
-                <ProjectCard />
-                <ProjectCard />
+                {dataPerformanceWorkPage1.map((items) => (
+                    <ProjectCard items={items} key={items.id} />
+                ))}
             </div>
             <div className="carousel-grid gap-5 grid-cols-1 sml:grid-cols-3 px-20">
-                <ProjectCard />
-                <ProjectCard />
-                <ProjectCard />
-                <ProjectCard />
-                <ProjectCard />
-                <ProjectCard />
+                {dataPerformanceWorkPage2.map((items) => (
+                    <ProjectCard items={items} key={items.id} />
+                ))}
+            </div>
+            <div className="carousel-grid gap-5 grid-cols-1 sml:grid-cols-3 px-20">
+                {dataPerformanceWorkPage3.map((items) => (
+                    <ProjectCard items={items} key={items.id} />
+                ))}
             </div>
         </Carousel>
     );
