@@ -1,20 +1,17 @@
 import Image from "next/image";
-// Icons
-import { FaGithub, FaRegFilePdf } from "react-icons/fa6";
-// Images
-import me from "@/public/Screenshot.png";
-import { TbBrandNextjs } from "react-icons/tb";
 import { Popover } from "antd";
-import { BiLogoPostgresql, BiLogoRedux, BiLogoTypescript } from "react-icons/bi";
-import { SiAntdesign, SiFirebase, SiPrisma, SiReactquery, SiTailwindcss } from "react-icons/si";
 import { performanceArrType } from "../data/dataPerformance";
 import Link from "next/link";
+
+// Icons
+import { FaGithub, FaRegFilePdf } from "react-icons/fa6";
 
 interface Prop {
     items: performanceArrType
 }
 
-const ProjectCard = ({items}: Prop) => {
+const ProjectCard = ({ items }: Prop) => {
+
     return (
         <div className="project-card shadow-boxShadow p-5 z-[1]">
             <div className="project-img">
@@ -40,14 +37,20 @@ const ProjectCard = ({items}: Prop) => {
                 {items.icon.map((icon, index) => (
                     <Popover key={index} content={icon.name} trigger="hover">
                         <span className="transition-transform transform hover:scale-150 duration-300 hover:text-orange-500">
-                            <icon.icon/>
+                            <icon.icon />
                         </span>
                     </Popover>
                 ))}
             </div>
-            <div className="flex gap-3 text-2xl mt-4 justify-between">
+            <div className={`flex gap-3 text-2xl mt-4 ${items.id === 4 ? 'justify-end' : 'justify-between'}`}>
                 <Popover content={items.detailPdf} trigger="hover">
-                    <span className="cursor-pointer transition-transform transform hover:scale-150 duration-300"><FaRegFilePdf /></span>
+                    <Link href={items.namePdf} target="_blank">
+                        <div className={`${items.id === 4 && 'hidden'}`}>
+                            <span className="cursor-pointer transition-transform transform hover:scale-150 duration-300">
+                                <FaRegFilePdf />
+                            </span>
+                        </div>
+                    </Link>
                 </Popover>
                 <Popover content={items.detailGithub} trigger="hover">
                     <Link href={items.github} target="_blank">
