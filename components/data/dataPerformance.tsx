@@ -61,7 +61,7 @@ export const dataPerformanceWorkPage1: performanceArrType[] = [
             },
         ],
         github: "https://github.com/newpee23/PeerapatCV",
-        namePdf: "https://drive.google.com/file/d/1HEvb5xAcTIn835HWFjKgREjZgq0B3p_d/view?usp=sharing",
+        namePdf: "https://firebasestorage.googleapis.com/v0/b/project-nextpos-828f7.appspot.com/o/performance%2F4.png?alt=media&token=238b1fef-ac61-42bf-950d-488bc9409a09",
         detailPdf: "ภาพตัวอย่าง",
         detailGithub: "source code",
     },
@@ -110,7 +110,7 @@ export const dataPerformanceWorkPage1: performanceArrType[] = [
             },
         ],
         github: "https://github.com/newpee23/Full-Stack-NextJs-Pos",
-        namePdf: "https://drive.google.com/file/d/1zK1MIcLacc9AF6wKBVn83iz4LdQhKboF/view?usp=sharing",
+        namePdf: "https://firebasestorage.googleapis.com/v0/b/project-nextpos-828f7.appspot.com/o/performance%2F2.pdf?alt=media&token=92ab9255-fb6a-4579-9cd1-ede5f15b0750",
         detailPdf: "ภาพตัวอย่าง",
         detailGithub: "source code",
     },
@@ -143,7 +143,7 @@ export const dataPerformanceWorkPage1: performanceArrType[] = [
             },
         ],
         github: "https://github.com/newpee23/Client-Project-Pver",
-        namePdf: "https://drive.google.com/file/d/1NjP-jC46UHsJOqnCHOvsf3Tcp_g4bMMO/view?usp=sharing",
+        namePdf: "https://firebasestorage.googleapis.com/v0/b/project-nextpos-828f7.appspot.com/o/performance%2F3.pdf?alt=media&token=286f1266-69a0-45e7-9ee0-f9578ba376bb",
         detailPdf: "ภาพตัวอย่าง",
         detailGithub: "source code",
     },
@@ -184,7 +184,7 @@ export const dataPerformanceWorkPage1: performanceArrType[] = [
             },
         ],
         github: "https://github.com/newpee23/Server-Project-Pver",
-        namePdf: "Server-Project-Pver",
+        namePdf: "https://firebasestorage.googleapis.com/v0/b/project-nextpos-828f7.appspot.com/o/performance%2F4.png?alt=media&token=238b1fef-ac61-42bf-950d-488bc9409a09",
         detailPdf: "ภาพตัวอย่าง",
         detailGithub: "source code",
     },
@@ -233,7 +233,7 @@ export const dataPerformanceWorkPage1: performanceArrType[] = [
             },
         ],
         github: "https://github.com/newpee23/FullStarck-AuthtenJwt-Mongood-Mui-TS",
-        namePdf: "https://drive.google.com/file/d/1zdLZhe_YGWjpiYs5LWDKrCbSnTV2BFm5/view?usp=sharing",
+        namePdf: "https://firebasestorage.googleapis.com/v0/b/project-nextpos-828f7.appspot.com/o/performance%2F5.pdf?alt=media&token=52e889e5-bbcd-44bf-896e-4b50c7027f8b",
         detailPdf: "ภาพตัวอย่าง",
         detailGithub: "source code",
     },
@@ -274,7 +274,7 @@ export const dataPerformanceWorkPage1: performanceArrType[] = [
             }
         ],
         github: "https://github.com/newpee23/Vitejs-Typescript-FullStack",
-        namePdf: "https://drive.google.com/file/d/1nTjNx-kcH-GfPABb0qK2i8q2U-7tO-5h/view?usp=sharing",
+        namePdf: "https://firebasestorage.googleapis.com/v0/b/project-nextpos-828f7.appspot.com/o/performance%2F11.pdf?alt=media&token=29b7a0ab-0a8e-4ac1-bf29-a58efd283a6e",
         detailPdf: "ภาพตัวอย่าง",
         detailGithub: "source code",
     },
@@ -302,7 +302,7 @@ export const dataPerformanceWorkPage2: performanceArrType[] = [
             },
         ],
         github: "https://github.com/newpee23/NextJs-Zustand-TS",
-        namePdf: "https://drive.google.com/file/d/14_ImDmhUIPpEOYyHQ9ODWjxTeX6xrhYB/view?usp=sharing",
+        namePdf: "https://firebasestorage.googleapis.com/v0/b/project-nextpos-828f7.appspot.com/o/performance%2F7.pdf?alt=media&token=e4f436f9-b9bc-4bde-a851-d40416bf4d30",
         detailPdf: "ภาพตัวอย่าง",
         detailGithub: "source code",
     },
@@ -331,7 +331,7 @@ export const dataPerformanceWorkPage2: performanceArrType[] = [
             },
         ],
         github: "https://github.com/newpee23/Vitejs-Typescript-ReduxToolkit-Cart",
-        namePdf: "https://drive.google.com/file/d/1zKtEdiGIEy2a5g-YxKaQvneYViGeuTTz/view?usp=sharing",
+        namePdf: "https://firebasestorage.googleapis.com/v0/b/project-nextpos-828f7.appspot.com/o/performance%2F8-10.pdf?alt=media&token=d76af534-d660-4007-9b06-360281345900",
         detailPdf: "ภาพตัวอย่าง",
         detailGithub: "source code",
     },
@@ -360,7 +360,7 @@ export const dataPerformanceWorkPage2: performanceArrType[] = [
             },
         ],
         github: "https://github.com/newpee23/Vitejs-ReactToolkit-Cart",
-        namePdf: "https://drive.google.com/file/d/1zKtEdiGIEy2a5g-YxKaQvneYViGeuTTz/view?usp=sharing",
+        namePdf: "https://firebasestorage.googleapis.com/v0/b/project-nextpos-828f7.appspot.com/o/performance%2F8-10.pdf?alt=media&token=d76af534-d660-4007-9b06-360281345900",
         detailPdf: "ภาพตัวอย่าง",
         detailGithub: "source code",
     },
@@ -389,7 +389,7 @@ export const dataPerformanceWorkPage2: performanceArrType[] = [
             },
         ],
         github: "https://github.com/newpee23/ViteJs-ReactThunk-Cart/tree/main",
-        namePdf: "https://drive.google.com/file/d/1zKtEdiGIEy2a5g-YxKaQvneYViGeuTTz/view?usp=sharing",
+        namePdf: "https://firebasestorage.googleapis.com/v0/b/project-nextpos-828f7.appspot.com/o/performance%2F8-10.pdf?alt=media&token=d76af534-d660-4007-9b06-360281345900",
         detailPdf: "ภาพตัวอย่าง",
         detailGithub: "source code",
     },
@@ -414,7 +414,7 @@ export const dataPerformanceWorkPage2: performanceArrType[] = [
             },
         ],
         github: "https://github.com/newpee23/Vitejs-Ui-Form",
-        namePdf: "https://drive.google.com/file/d/1nTjNx-kcH-GfPABb0qK2i8q2U-7tO-5h/view?usp=sharing",
+        namePdf: "https://firebasestorage.googleapis.com/v0/b/project-nextpos-828f7.appspot.com/o/performance%2F11.pdf?alt=media&token=29b7a0ab-0a8e-4ac1-bf29-a58efd283a6e",
         detailPdf: "ภาพตัวอย่าง",
         detailGithub: "source code",
     },
@@ -439,7 +439,7 @@ export const dataPerformanceWorkPage2: performanceArrType[] = [
             },
         ],
         github: "https://github.com/newpee23/Vitejs-Weather-App",
-        namePdf: "https://drive.google.com/file/d/1PUsOWgSD-caoHPV40_NXnvAACkRM7HHj/view?usp=sharing",
+        namePdf: "https://firebasestorage.googleapis.com/v0/b/project-nextpos-828f7.appspot.com/o/performance%2F12.pdf?alt=media&token=a700df76-088a-418d-9c0f-212661f069a8",
         detailPdf: "ภาพตัวอย่าง",
         detailGithub: "source code",
     },
@@ -467,7 +467,7 @@ export const dataPerformanceWorkPage3: performanceArrType[] = [
             },
         ],
         github: "https://github.com/newpee23/ToDoListStorageKey",
-        namePdf: "https://drive.google.com/file/d/1qXDVnsUOj7vGpgA5U3gxYNarezgNzxVf/view?usp=sharing",
+        namePdf: "https://firebasestorage.googleapis.com/v0/b/project-nextpos-828f7.appspot.com/o/performance%2F13.pdf?alt=media&token=ca227d3b-56af-4b11-aebc-8a9f87589e53",
         detailPdf: "ภาพตัวอย่าง",
         detailGithub: "source code",
     },
@@ -492,13 +492,13 @@ export const dataPerformanceWorkPage3: performanceArrType[] = [
             },
         ],
         github: "https://github.com/newpee23/React-Restapi-Pokeapi",
-        namePdf: "https://drive.google.com/file/d/16QzdzKjAV-8E3TgVXiSeTc379cx2siVt/view?usp=sharing",
+        namePdf: "https://firebasestorage.googleapis.com/v0/b/project-nextpos-828f7.appspot.com/o/performance%2F14.pdf?alt=media&token=e7dd42fb-3e96-4cda-a0a2-3c4b812e853e",
         detailPdf: "ภาพตัวอย่าง",
         detailGithub: "source code",
     },
 ];
 
-export const dataPerformanceWorkPageMobile1: performanceArrType[] = [
+export const dataPerformanceWorkPageMobile: performanceArrType[] = [
     {
         id: 1,
         image: me,
@@ -524,13 +524,10 @@ export const dataPerformanceWorkPageMobile1: performanceArrType[] = [
             },
         ],
         github: "https://github.com/newpee23/PeerapatCV",
-        namePdf: "https://drive.google.com/file/d/1HEvb5xAcTIn835HWFjKgREjZgq0B3p_d/view?usp=sharing",
+        namePdf: "https://firebasestorage.googleapis.com/v0/b/project-nextpos-828f7.appspot.com/o/performance%2F4.png?alt=media&token=238b1fef-ac61-42bf-950d-488bc9409a09",
         detailPdf: "ภาพตัวอย่าง",
         detailGithub: "source code",
-    }
-];
-
-export const dataPerformanceWorkPageMobile2: performanceArrType[] = [
+    },
     {
         id: 2,
         image: image2,
@@ -576,13 +573,10 @@ export const dataPerformanceWorkPageMobile2: performanceArrType[] = [
             },
         ],
         github: "https://github.com/newpee23/Full-Stack-NextJs-Pos",
-        namePdf: "https://drive.google.com/file/d/1zK1MIcLacc9AF6wKBVn83iz4LdQhKboF/view?usp=sharing",
+        namePdf: "https://firebasestorage.googleapis.com/v0/b/project-nextpos-828f7.appspot.com/o/performance%2F2.pdf?alt=media&token=92ab9255-fb6a-4579-9cd1-ede5f15b0750",
         detailPdf: "ภาพตัวอย่าง",
         detailGithub: "source code",
-    }
-];
-
-export const dataPerformanceWorkPageMobile3: performanceArrType[] = [
+    },
     {
         id: 3,
         image: image3,
@@ -612,13 +606,10 @@ export const dataPerformanceWorkPageMobile3: performanceArrType[] = [
             },
         ],
         github: "https://github.com/newpee23/Client-Project-Pver",
-        namePdf: "https://drive.google.com/file/d/1NjP-jC46UHsJOqnCHOvsf3Tcp_g4bMMO/view?usp=sharing",
+        namePdf: "https://firebasestorage.googleapis.com/v0/b/project-nextpos-828f7.appspot.com/o/performance%2F3.pdf?alt=media&token=286f1266-69a0-45e7-9ee0-f9578ba376bb",
         detailPdf: "ภาพตัวอย่าง",
         detailGithub: "source code",
-    }
-];
-
-export const dataPerformanceWorkPageMobile4: performanceArrType[] = [
+    },
     {
         id: 4,
         image: image4,
@@ -656,13 +647,59 @@ export const dataPerformanceWorkPageMobile4: performanceArrType[] = [
             },
         ],
         github: "https://github.com/newpee23/Server-Project-Pver",
-        namePdf: "Server-Project-Pver",
+        namePdf: "https://firebasestorage.googleapis.com/v0/b/project-nextpos-828f7.appspot.com/o/performance%2F4.png?alt=media&token=238b1fef-ac61-42bf-950d-488bc9409a09",
         detailPdf: "ภาพตัวอย่าง",
         detailGithub: "source code",
-    }
-];
-
-export const dataPerformanceWorkPageMobile5: performanceArrType[] = [
+    },
+    {
+        id: 5,
+        image: image5,
+        title: "รายละเอียด",
+        detail: "เป็นโปรเจคที่เกี่ยวกับ Authentication แบบง่ายๆ ซึ่งมีการนำ Jwt มาช่วยในการยืนยันตัวตนอีกชั้นหนึ่งด้วย",
+        detailIcon: "เทคโนโลยีหลักที่ใช้",
+        icon: [
+            {
+                name: "Vitejs(Base Reactjs)",
+                icon: SiVite
+            },
+            {
+                name: "Redux",
+                icon: BiLogoRedux
+            },
+            {
+                name: "Tailwind",
+                icon: SiTailwindcss
+            },
+            {
+                name: "Material-UI",
+                icon: SiMui
+            },
+            {
+                name: "Express",
+                icon: SiExpress
+            },
+            {
+                name: "Typescript",
+                icon: BiLogoTypescript
+            },
+            {
+                name: "Mongodb",
+                icon: BiLogoMongodb
+            },
+            {
+                name: "Postman",
+                icon: SiPostman
+            },
+            {
+                name: "Jsonwebtokens",
+                icon: SiJsonwebtokens
+            },
+        ],
+        github: "https://github.com/newpee23/FullStarck-AuthtenJwt-Mongood-Mui-TS",
+        namePdf: "https://firebasestorage.googleapis.com/v0/b/project-nextpos-828f7.appspot.com/o/performance%2F5.pdf?alt=media&token=52e889e5-bbcd-44bf-896e-4b50c7027f8b",
+        detailPdf: "ภาพตัวอย่าง",
+        detailGithub: "source code",
+    },
     {
         id: 6,
         image: image6,
@@ -700,57 +737,10 @@ export const dataPerformanceWorkPageMobile5: performanceArrType[] = [
             }
         ],
         github: "https://github.com/newpee23/Vitejs-Typescript-FullStack",
-        namePdf: "https://drive.google.com/file/d/1nTjNx-kcH-GfPABb0qK2i8q2U-7tO-5h/view?usp=sharing",
+        namePdf: "https://firebasestorage.googleapis.com/v0/b/project-nextpos-828f7.appspot.com/o/performance%2F11.pdf?alt=media&token=29b7a0ab-0a8e-4ac1-bf29-a58efd283a6e",
         detailPdf: "ภาพตัวอย่าง",
         detailGithub: "source code",
-    }
-];
-
-export const dataPerformanceWorkPageMobile6: performanceArrType[] = [
-    {
-        id: 6,
-        image: image6,
-        title: "รายละเอียด",
-        detail: "เป็นโปรเจคที่เกี่ยวการทำระบบ CRUD ซึ่งเป็นการฝึกใช้ Express ร่วมกับ Mysql",
-        detailIcon: "เทคโนโลยีหลักที่ใช้",
-        icon: [
-            {
-                name: "Vitejs(Base Reactjs)",
-                icon: SiVite
-            },
-            {
-                name: "Typescript",
-                icon: BiLogoTypescript
-            }
-            , {
-                name: "Redux",
-                icon: BiLogoRedux
-            }
-            , {
-                name: "Tailwind",
-                icon: SiTailwindcss
-            }
-            , {
-                name: "Express",
-                icon: SiExpress
-            }
-            , {
-                name: "Mysql",
-                icon: SiMysql
-            }
-            , {
-                name: "Postman",
-                icon: SiPostman
-            }
-        ],
-        github: "https://github.com/newpee23/Vitejs-Typescript-FullStack",
-        namePdf: "https://drive.google.com/file/d/1nTjNx-kcH-GfPABb0qK2i8q2U-7tO-5h/view?usp=sharing",
-        detailPdf: "ภาพตัวอย่าง",
-        detailGithub: "source code",
-    }
-];
-
-export const dataPerformanceWorkPageMobile7: performanceArrType[] = [
+    },
     {
         id: 7,
         image: image7,
@@ -772,13 +762,10 @@ export const dataPerformanceWorkPageMobile7: performanceArrType[] = [
             },
         ],
         github: "https://github.com/newpee23/NextJs-Zustand-TS",
-        namePdf: "https://drive.google.com/file/d/14_ImDmhUIPpEOYyHQ9ODWjxTeX6xrhYB/view?usp=sharing",
+        namePdf: "https://firebasestorage.googleapis.com/v0/b/project-nextpos-828f7.appspot.com/o/performance%2F7.pdf?alt=media&token=e4f436f9-b9bc-4bde-a851-d40416bf4d30",
         detailPdf: "ภาพตัวอย่าง",
         detailGithub: "source code",
-    }
-];
-
-export const dataPerformanceWorkPageMobile8: performanceArrType[] = [
+    },
     {
         id: 8,
         image: image8,
@@ -804,13 +791,10 @@ export const dataPerformanceWorkPageMobile8: performanceArrType[] = [
             },
         ],
         github: "https://github.com/newpee23/Vitejs-Typescript-ReduxToolkit-Cart",
-        namePdf: "https://drive.google.com/file/d/1zKtEdiGIEy2a5g-YxKaQvneYViGeuTTz/view?usp=sharing",
+        namePdf: "https://firebasestorage.googleapis.com/v0/b/project-nextpos-828f7.appspot.com/o/performance%2F8-10.pdf?alt=media&token=d76af534-d660-4007-9b06-360281345900",
         detailPdf: "ภาพตัวอย่าง",
         detailGithub: "source code",
-    }
-];
-
-export const dataPerformanceWorkPageMobile9: performanceArrType[] = [
+    },
     {
         id: 9,
         image: image9,
@@ -836,13 +820,10 @@ export const dataPerformanceWorkPageMobile9: performanceArrType[] = [
             },
         ],
         github: "https://github.com/newpee23/Vitejs-ReactToolkit-Cart",
-        namePdf: "https://drive.google.com/file/d/1zKtEdiGIEy2a5g-YxKaQvneYViGeuTTz/view?usp=sharing",
+        namePdf: "https://firebasestorage.googleapis.com/v0/b/project-nextpos-828f7.appspot.com/o/performance%2F8-10.pdf?alt=media&token=d76af534-d660-4007-9b06-360281345900",
         detailPdf: "ภาพตัวอย่าง",
         detailGithub: "source code",
-    }
-];
-
-export const dataPerformanceWorkPageMobile10: performanceArrType[] = [
+    },
     {
         id: 10,
         image: image10,
@@ -868,18 +849,15 @@ export const dataPerformanceWorkPageMobile10: performanceArrType[] = [
             },
         ],
         github: "https://github.com/newpee23/ViteJs-ReactThunk-Cart/tree/main",
-        namePdf: "https://drive.google.com/file/d/1zKtEdiGIEy2a5g-YxKaQvneYViGeuTTz/view?usp=sharing",
+        namePdf: "https://firebasestorage.googleapis.com/v0/b/project-nextpos-828f7.appspot.com/o/performance%2F8-10.pdf?alt=media&token=d76af534-d660-4007-9b06-360281345900",
         detailPdf: "ภาพตัวอย่าง",
         detailGithub: "source code",
-    }
-];
-
-export const dataPerformanceWorkPageMobile11: performanceArrType[] = [
+    },
     {
-        id: 10,
-        image: image10,
+        id: 11,
+        image: image11,
         title: "รายละเอียด",
-        detail: "เป็นโปรเจคที่เกี่ยว Frontend Javascript เป็นระบบ ตระกร้าสินค้า ซึ่งเป็นการฝึกใช้ Redux เบื้องต้น",
+        detail: "เป็นโปรเจคที่เกี่ยว Frontend Javascript เป็นการฝึกสร้าง Ui ส่วนของหน้าเว็บไซต์",
         detailIcon: "เทคโนโลยีหลักที่ใช้",
         icon: [
             {
@@ -891,22 +869,15 @@ export const dataPerformanceWorkPageMobile11: performanceArrType[] = [
                 icon: RiJavascriptFill
             },
             {
-                name: "Redux",
-                icon: BiLogoRedux
-            },
-            {
                 name: "Tailwind",
                 icon: SiTailwindcss
             },
         ],
-        github: "https://github.com/newpee23/ViteJs-ReactThunk-Cart/tree/main",
-        namePdf: "https://drive.google.com/file/d/1zKtEdiGIEy2a5g-YxKaQvneYViGeuTTz/view?usp=sharing",
+        github: "https://github.com/newpee23/Vitejs-Ui-Form",
+        namePdf: "https://firebasestorage.googleapis.com/v0/b/project-nextpos-828f7.appspot.com/o/performance%2F11.pdf?alt=media&token=29b7a0ab-0a8e-4ac1-bf29-a58efd283a6e",
         detailPdf: "ภาพตัวอย่าง",
         detailGithub: "source code",
-    }
-];
-
-export const dataPerformanceWorkPageMobile12: performanceArrType[] = [
+    },
     {
         id: 12,
         image: image12,
@@ -928,13 +899,10 @@ export const dataPerformanceWorkPageMobile12: performanceArrType[] = [
             },
         ],
         github: "https://github.com/newpee23/Vitejs-Weather-App",
-        namePdf: "https://drive.google.com/file/d/1PUsOWgSD-caoHPV40_NXnvAACkRM7HHj/view?usp=sharing",
+        namePdf: "https://firebasestorage.googleapis.com/v0/b/project-nextpos-828f7.appspot.com/o/performance%2F12.pdf?alt=media&token=a700df76-088a-418d-9c0f-212661f069a8",
         detailPdf: "ภาพตัวอย่าง",
         detailGithub: "source code",
-    }
-];
-
-export const dataPerformanceWorkPageMobile13: performanceArrType[] = [
+    },
     {
         id: 13,
         image: image13,
@@ -956,13 +924,10 @@ export const dataPerformanceWorkPageMobile13: performanceArrType[] = [
             },
         ],
         github: "https://github.com/newpee23/ToDoListStorageKey",
-        namePdf: "https://drive.google.com/file/d/1qXDVnsUOj7vGpgA5U3gxYNarezgNzxVf/view?usp=sharing",
+        namePdf: "https://firebasestorage.googleapis.com/v0/b/project-nextpos-828f7.appspot.com/o/performance%2F13.pdf?alt=media&token=ca227d3b-56af-4b11-aebc-8a9f87589e53",
         detailPdf: "ภาพตัวอย่าง",
         detailGithub: "source code",
     },
-];
-
-export const dataPerformanceWorkPageMobile14: performanceArrType[] = [
     {
         id: 14,
         image: image14,
@@ -984,8 +949,8 @@ export const dataPerformanceWorkPageMobile14: performanceArrType[] = [
             },
         ],
         github: "https://github.com/newpee23/React-Restapi-Pokeapi",
-        namePdf: "https://drive.google.com/file/d/16QzdzKjAV-8E3TgVXiSeTc379cx2siVt/view?usp=sharing",
+        namePdf: "https://firebasestorage.googleapis.com/v0/b/project-nextpos-828f7.appspot.com/o/performance%2F14.pdf?alt=media&token=e7dd42fb-3e96-4cda-a0a2-3c4b812e853e",
         detailPdf: "ภาพตัวอย่าง",
         detailGithub: "source code",
-    }
+    },
 ];

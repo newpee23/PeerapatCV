@@ -8,7 +8,7 @@ interface Prop {
 
 const ResumeCard = ({ title, subTitle, gpa, description, descriptionArr }: Prop) => {
     return (
-        <div className="w-full h-1/3 group flex z-[1] min-w-[360px]">
+        <div className="w-full h-1/3 group flex z-[1] min-w-[360px] mb-5 lg:mb-0">
             <div className="w-10 h-[6px] bgOpacity mt-16 relative hidden xl:block">
                 <span className="absolute w-5 h-5 rounded-full -top-2 -left-3 flex justify-center items-center bg-black bg-opacity-60">
                     <span className="w-3 h-3 rounded-full bg-bodyColor inline-flex bg-orange-500"></span>

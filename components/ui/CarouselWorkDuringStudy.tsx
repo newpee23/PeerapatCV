@@ -1,57 +1,58 @@
-import React, { useState } from "react";
-import { dataWorkDuring1, dataWorkDuring2, dataWorkDuring3 } from "../data/dataWorkDuring";
-import ImageWorkDS from "./ImageWorkDS";
+import Slider from "react-slick";
+import ImageWorkDS from "./ImageWorkDS"
+import { dataWorkDuring1, dataWorkDuring2, dataWorkDuring3, dataWorkDuringMobile } from "../data/dataWorkDuring"
+import { dataPerformanceWorkPageMobile } from "../data/dataPerformance";
 
-const CarouselWorkDuringStudy: React.FC = () => {
-    const [dotActive, setDotActive] = useState({
-        btn1: true,
-        btn2: false,
-        btn3: false
-    });
-
-    const handleDotClick = (btn: string) => {
-        setDotActive({
-            btn1: btn === 'btn1',
-            btn2: btn === 'btn2',
-            btn3: btn === 'btn3'
-        });
+const CarouselWorkDuringStudy = () => {
+    const settings = {
+        dots: true,
+        fade: true,
+        infinite: true,
+        speed: 1000,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        waitForAnimate: false
     };
-
     return (
-        <div>
-            <div className="text-white py-8">
-                <div className={`${dotActive.btn1 ? 'grid' : 'hidden'} gap-5 grid-cols-1 md:grid-cols-2 xl:grid-cols-3 lg:px-20 m-auto  w-full duration-1000`}>
-                    {dataWorkDuring1.map((items) => (
-                        <ImageWorkDS key={items.id} image={items} />
-                    ))}
+        <div className="w-full">
+        <div className="text-white min-h-[810px] hidden lg:block">
+            <Slider {...settings}>
+                <div>
+                    <div className={`grid gap-5 grid-cols-3 px-20 m-auto w-full`}>
+                        {dataWorkDuring1.map((items) => (
+                            <ImageWorkDS image={items} key={items.id} />
+                        ))}
+                    </div>
                 </div>
-                <div className={`${dotActive.btn2 ? 'grid' : 'hidden'} gap-5 grid-cols-1 md:grid-cols-2 xl:grid-cols-3 lg:px-20 m-auto  w-full duration-1000`}>
-                    {dataWorkDuring2.map((items) => (
-                        <ImageWorkDS key={items.id} image={items} />
-                    ))}
+                <div>
+                    <div className={`grid gap-5 grid-cols-3 px-20 m-auto w-full`}>
+                        {dataWorkDuring2.map((items) => (
+                            <ImageWorkDS image={items} key={items.id} />
+                        ))}
+                    </div>
                 </div>
-                <div className={`${dotActive.btn3 ? 'grid' : 'hidden'} gap-5 grid-cols-1 md:grid-cols-2 xl:grid-cols-3 lg:px-20 m-auto  w-full duration-1000`}>
-                    {dataWorkDuring3.map((items) => (
-                        <ImageWorkDS key={items.id} image={items} />
-                    ))}
+                <div>
+                    <div className={`grid gap-5 grid-cols-3 px-20 m-auto w-full`}>
+                        {dataWorkDuring3.map((items) => (
+                            <ImageWorkDS image={items} key={items.id} />
+                        ))}
+                    </div>
                 </div>
-            </div>
-            <ul className="flex items-center justify-center">
-                <div
-                    className={`${dotActive.btn1 ? 'bg-orange-500' : 'bg-gray-500'} w-3 h-3 cursor-pointer z-[1] ransition-transform transform hover:scale-150 rounded-full duration-500 shadow-boxShadow`}
-                    onClick={() => handleDotClick('btn1')}
-                ></div>
-                <div
-                    className={`${dotActive.btn2 ? 'bg-orange-500' : 'bg-gray-500'} mx-3 w-3 h-3 cursor-pointer z-[1] ransition-transform transform hover:scale-150 rounded-full duration-500 shadow-boxShadow`}
-                    onClick={() => handleDotClick('btn2')}
-                ></div>
-                <div
-                    className={`${dotActive.btn3 ? 'bg-orange-500' : 'bg-gray-500'} w-3 h-3 cursor-pointer z-[1] ransition-transform transform hover:scale-150 rounded-full duration-500 shadow-boxShadow`}
-                    onClick={() => handleDotClick('btn3')}
-                ></div>
-            </ul>
+            </Slider>
         </div>
-    );
-};
+        <div className="block lg:hidden">
+            <Slider {...settings}>
+                {dataWorkDuringMobile.map((items) => (
+                    <div key={items.id}>
+                        <div className={`grid grid-cols-1 m-auto w-full`}>
+                            <ImageWorkDS image={items} />
+                        </div>
+                    </div>
+                ))}
+            </Slider>
+        </div>
+    </div>
+    )
+}
 
-export default CarouselWorkDuringStudy;
+export default CarouselWorkDuringStudy

@@ -29,7 +29,7 @@
   height: 3px;
 }
 
-.ant-divider.css-dev-only-do-not-override-1rqnfsa.ant-divider-horizontal.ant-divider-with-text.ant-divider-with-text-center{
+.ant-divider.css-dev-only-do-not-override-1rqnfsa.ant-divider-horizontal.ant-divider-with-text.ant-divider-with-text-center {
   justify-content: center;
 }
 
@@ -75,6 +75,7 @@ span.ant-divider-inner-text {
   height: 170px;
   margin-bottom: 20px;
 }
+
 .project-map {
   display: flex;
   margin-top: 30px;
@@ -99,6 +100,27 @@ img.ant-image-img.css-dev-only-do-not-override-1rqnfsa {
   box-shadow: "0 1px 2px -2px rgba(0, 0, 0, 0.16), 0 3px 6px 0 rgba(0, 0, 0, 0.12), 0 5px 12px 4px rgba(0, 0, 0, 0.09)"
 }
 
-.slick-dots li.slick-active button:before{
+.slick-dots li.slick-active button:before {
   color: #f97315 !important;
+}
+
+:where(.css-dev-only-do-not-override-1rqnfsa).ant-divider-horizontal.ant-divider-with-text::before,
+:where(.css-dev-only-do-not-override-1rqnfsa).ant-divider-horizontal.ant-divider-with-text::after {
+  background-color: #fb923c !important;
+  max-width: 500px !important;
+  height: 3px !important;
+}
+
+button.slick-arrow.slick-prev {
+  margin-left: 25px;
+  z-index: 50;
+}
+
+button.slick-arrow.slick-next {
+  margin-right: 25px;
+  z-index: 50;
+}
+
+.slick-dots {
+  bottom: -55px !important;
 }
