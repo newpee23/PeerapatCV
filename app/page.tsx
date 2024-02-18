@@ -13,6 +13,7 @@ export default function Home() {
         <MyResume />
         <PerformanceWork />
         <WorkDuringStudy />
+        <div className="mb-20"></div>
       </div>
     </main>
   );

@@ -111,6 +111,13 @@ img.ant-image-img.css-dev-only-do-not-override-1rqnfsa {
   height: 3px !important;
 }
 
+:where(.css-1rqnfsa).ant-divider-horizontal.ant-divider-with-text::before, 
+:where(.css-1rqnfsa).ant-divider-horizontal.ant-divider-with-text::after {
+  background-color: #fb923c !important;
+  max-width: 500px !important;
+  height: 3px !important;
+}
+
 button.slick-arrow.slick-prev {
   margin-left: 25px;
   z-index: 50;
