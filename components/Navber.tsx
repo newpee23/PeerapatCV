@@ -12,7 +12,7 @@ const Navber = () => {
 
     return (
         <nav className="w-full h-[65px] bg-['#ffff'] fixed backdrop-blur-sm z-50 lg:px-10">
-            <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[10px]">
+            <div className="w-full h-full flex flex-row items-center justify-between m-auto px-10">
                 <Link href="#banner" scroll={true} className="h-auto w-auto flex flex-row items-center">
                     <Image
                         src={logo}

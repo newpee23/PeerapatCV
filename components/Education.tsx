@@ -14,7 +14,7 @@ const Education = () => {
 
     return (
         <div>
-            <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
+            <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4 lg:px-11">
                 <h2 className="text-xl md:text-3xl font-bold">ประวัติการศึกษา</h2>
                 <p className="z-[1] mt-[-5px] cursor-pointer text-sm text-orange-500 tracking-[4px] hover:text-white hover:bg-orange-500 hover:p-3 hover:text-center rounded-md hover:shadow-lg max-w-[240px] text-center duration-300" onClick={handleDownloadPDF}>Download Transcript</p>
             </div>

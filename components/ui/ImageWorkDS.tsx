@@ -1,5 +1,5 @@
-import { Image } from 'antd';
-import { dataWorkDuring } from '../data/dataWorkDuring';
+import { Image } from "antd";
+import { dataWorkDuring } from "../data/dataWorkDuring";
 
 interface Prop {
     image: dataWorkDuring
@@ -7,7 +7,7 @@ interface Prop {
 const ImageWorkDS = ({ image }: Prop) => {
 
     return (
-        <div>
+        <div className="m-auto">
             <Image
                 width={300}
                 src={image.base64}

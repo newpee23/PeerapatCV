@@ -13,7 +13,7 @@ interface Prop {
 const ProjectCard = ({ items }: Prop) => {
 
     return (
-        <div className="project-card shadow-boxShadow p-5 z-[1]">
+        <div className="project-card shadow-boxShadow p-5 z-[1] m-auto">
             <div className="project-img">
                 <Image
                     className="w-full h-auto rounded-md"
