@@ -30,7 +30,7 @@ const ProjectCard = ({ items }: Prop) => {
             <div className="text-xs mt-3 text-justify text-gray-300 h-[35px]">
                 <p className="text-indent-2">{items.detail}</p>
             </div>
-            <div className="project-title text-xs text-gray-300">
+            <div className="project-title text-sm">
                 <h2>{items.detailIcon}</h2>
             </div>
             <div className={`flex px-3 gap-2 text-xl mt-2 justify-start flex-wrap`}>
