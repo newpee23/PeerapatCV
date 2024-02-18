@@ -7,7 +7,7 @@ import { Carousel } from "antd";
 const CarouselPerformanceWork = () => {
 
     return (
-        <Carousel className="text-white py-8">
+        <div className="text-white py-8">
             <div className="carousel-grid gap-5 grid-cols-1 md:grid-cols-2 xl:grid-cols-3 lg:px-20 m-auto w-full">
                 {dataPerformanceWorkPage1.map((items) => (
                     <ProjectCard items={items} key={items.id} />
@@ -23,7 +23,7 @@ const CarouselPerformanceWork = () => {
                     <ProjectCard items={items} key={items.id} />
                 ))}
             </div>
-        </Carousel>
+        </div>
     );
 };
 
