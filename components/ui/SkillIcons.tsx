@@ -8,7 +8,7 @@ const SkillIcons = () => {
                 <div className="text-center">
                     <p className="mb-3 text-lg text-white">ภาษา</p>
                 </div>
-                <div className="flex justify-start flex-wrap mt-[-20px] lg:px-10 text-center">
+                <div className="flex justify-center p-8 lg:p-0 lg:justify-start flex-wrap mt-[-20px] lg:px-10 text-center">
                     {dataIconsSkill.map((iconData) => (
                         <div key={iconData.id} className="z-[1] hover:-translate-y-2 transition-all duration-300 hover:text-orange-500">
                             <div className="m-2 lg:m-8 mb-1 w-8 h-8 lg:w-16 lg:h-16 shadow-boxShadow bg-black bg-opacity-25 text-base lg:text-xl inline-flex items-center justify-center rounded-md hover:bg-opacity-40 ">
@@ -25,7 +25,7 @@ const SkillIcons = () => {
                 <div className="text-center">
                     <p className="mb-3 text-lg text-white">เครื่องมือ</p>
                 </div>
-                <div className="flex justify-start flex-wrap mt-[-20px] lg:px-10">
+                <div className="flex justify-center p-8 lg:p-0 lg:justify-start flex-wrap mt-[-20px] lg:px-10">
                     {dataIconsTool.map((iconData) => (
                         <div key={iconData.id} className="z-[1] hover:-translate-y-2 transition-all duration-300 hover:text-orange-500">
                             <div className="m-2 lg:m-8 mb-1 w-8 h-8 lg:w-16 lg:h-16 shadow-boxShadow bg-black bg-opacity-25 text-base lg:text-xl inline-flex items-center justify-center rounded-md hover:bg-opacity-40 ">

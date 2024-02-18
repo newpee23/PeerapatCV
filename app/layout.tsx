@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import StarsBackground from "@/components/main/StarsBackground";
+import Navber from "@/components/Navber";
 
 // CSS
 import "./globals.css";
 import "@/style/style.css";
-import Navber from "@/components/Navber";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
