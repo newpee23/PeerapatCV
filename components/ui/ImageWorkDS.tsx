@@ -9,7 +9,7 @@ interface Prop {
 const ImageWorkDS = ({ image }: Prop) => {
 
     return (
-        <div className="m-auto shadow-boxShadow">
+        <div className="m-auto shadow-boxShadow px-6">
            <Link href={image.base64} target="_blank">
             <Image
                 className="transition-transform transform hover:scale-110 z-10 duration-300 rounded "
