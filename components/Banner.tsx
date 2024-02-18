@@ -7,7 +7,7 @@ import me from "@/public/me.png";
 const Banner = () => {
     return (
         <section id="banner">
-            <div className="flex flex-row items-center justify-center px-20 mt-[150px] z-[20]">
+            <div className="flex flex-row items-center justify-center px-5 lg:px-20 mt-[150px] z-[20]">
                 <div className="flex flex-col justify-center text-center">
                     <div className="justify-center flex">
                         <Image

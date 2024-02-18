@@ -4,7 +4,7 @@ import DividerUi from "./ui/DividerUi";
 
 const WorkDuringStudy = () => {
     return (
-        <section id="performanceWork">
+        <section id="workDuringStudy" className="mb-[40px]">
             <div className="flex flex-row items-center justify-center px-10 z-[1] text-white">
                 <DividerUi text="Work During Study" />
             </div>

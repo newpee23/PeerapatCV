@@ -6,8 +6,8 @@ import WorkDuringStudy from "@/components/WorkDuringStudy";
 
 export default function Home() {
   return (
-    <main className="h-full w-full bg-no-repeat">
-      <div className="flex flex-col gap-20">
+    <main className="h-full w-full">
+      <div className="flex flex-col gap-5 lg:gap-20 w-full">
         <Banner />
         <SkillAndTool />
         <MyResume />
