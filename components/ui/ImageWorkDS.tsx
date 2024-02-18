@@ -1,4 +1,4 @@
-import { Image } from "antd";
+import Image from "next/image";
 import { dataWorkDuring } from "../data/dataWorkDuring";
 
 interface Prop {
@@ -9,9 +9,12 @@ const ImageWorkDS = ({ image }: Prop) => {
     return (
         <div className="m-auto">
             <Image
-                width={300}
+                className="transition-transform transform hover:scale-110 z-10 duration-300"
+                priority
                 src={image.base64}
-                about={image.name}
+                height={300}
+                width={300}
+                alt="Peerapat Mueangmo"
             />
         </div>
     );
