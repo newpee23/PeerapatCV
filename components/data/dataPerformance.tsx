@@ -61,7 +61,7 @@ export const dataPerformanceWorkPage1: performanceArrType[] = [
             },
         ],
         github: "https://github.com/newpee23/PeerapatCV",
-        namePdf: "PeerapatCV",
+        namePdf: "https://drive.google.com/file/d/1HEvb5xAcTIn835HWFjKgREjZgq0B3p_d/view?usp=sharing",
         detailPdf: "ภาพตัวอย่าง",
         detailGithub: "source code",
     },
