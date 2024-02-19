@@ -7,12 +7,16 @@ import phone from "@/public/Icons/phone-flat.png";
 import line from "@/public/Icons/line.png";
 import github from "@/public/Icons/github.png";
 import mail from "@/public/Icons/mail.png";
+import { useAppContext } from "@/context/page";
+import { useTranslation } from "@/data/language/setLanguage";
 
 type Props = {
     iconsName: "phone" | "line" | "github" | "mail";
 }
 
 const ContactIcon = ({ iconsName }: Props) => {
+    const { language } = useAppContext();
+    const dataLanguage = useTranslation(language);
 
     const getIcon = (): StaticImageData | null => {
         if (iconsName === "phone") return phone;
@@ -24,10 +28,10 @@ const ContactIcon = ({ iconsName }: Props) => {
     }
 
     const getContentPopover = (): string => {
-        if (iconsName === "phone") return "เบอร์โทรศัพท์ : 080-08430371";
-        if (iconsName === "line") return "ไลน์ไอดี : newlou234";
-        if (iconsName === "github") return "profile : github.com/newpee23";
-        if (iconsName === "mail") return "อีเมล์ : newp231612@gmail.com";
+        if (iconsName === "phone") return `${dataLanguage.bannerPhone} : 080-08430371`;
+        if (iconsName === "line") return `${dataLanguage.bannerLine} : newlou234`;
+        if (iconsName === "github") return `${dataLanguage.bannerGit} : github.com/newpee23`;
+        if (iconsName === "mail") return `${dataLanguage.bannerEmail} : newp231612@gmail.com`;
 
         return "";
     }
