@@ -4,30 +4,40 @@ import ThaiFlag from '@/public/thai.svg';
 import EnglishFlag from '@/public/english.svg';
 import Link from "next/link";
 import { HiMenu } from "react-icons/hi";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { IoMdClose } from "react-icons/io";
+import { handleGetCookieStore, handleLanguageChange } from "@/app/server/serverActions";
+
+
 
 const Navber = () => {
-    const language = localStorage.getItem("myLanguage") || "";
+
     const [showMenu, setShowMenu] = useState(false);
-    
-    const handleClickEnglish = () => {
-        localStorage.setItem('myLanguage', 'EN'); // เก็บค่าลงใน LocalStorage
+    const [language, setLanguage] = useState("");
+
+    useEffect(() => {
+        const fetchLanguage = async () => {
+            const lang = await handleGetCookieStore();
+            if (lang) {
+                setLanguage(lang);
+            }
+        };
+
+        fetchLanguage();
+    }, []); // โหลดภาษาเมื่อ component ถูกโหลดเป็นครั้งแรก
+
+    const handleClickEnglish = async (language: string) => {
+        await handleLanguageChange(language);
         window.location.reload();
     };
 
-    const handleClickThai = () => {
-        localStorage.setItem('myLanguage', 'TH'); // เก็บค่าลงใน LocalStorage
-        window.location.reload();
-    };  
-    
     return (
         <nav className="w-full h-[65px] bg-['#ffff'] fixed backdrop-blur-sm z-50 lg:px-10">
             <div className="w-full h-full flex flex-row items-center justify-between m-auto px-10">
                 <div className="z-[1] bg-transparent bg-black rounded-xl px-4 flex items-center">
-                    <span className={`ml-3 ${language == "EN" ? 'text-orange-500' : 'text-white'}`}>EN</span>
+                    <span className={`ml-3 ${language === "EN" ? 'text-orange-500' : 'text-white'}`}>EN</span>
                     <Image
-                        onClick={handleClickEnglish}
+                        onClick={() => handleClickEnglish("EN")}
                         src={EnglishFlag}
                         alt="logo"
                         width={80}
@@ -37,9 +47,9 @@ const Navber = () => {
                         priority={true}
                     />
 
-                    <span className={`ml-3 ${language == "TH" ? 'text-orange-500' : 'text-white'}`}>TH</span>
+                    <span className={`ml-3 ${language === "TH" ? 'text-orange-500' : 'text-white'}`}>TH</span>
                     <Image
-                        onClick={handleClickThai}
+                        onClick={() => handleClickEnglish("TH")}
                         src={ThaiFlag}
                         alt="logo"
                         width={80}
