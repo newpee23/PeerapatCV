@@ -4,10 +4,12 @@ import ContactIcon from "./ui/contactIcon";
 // images
 import me from "@/public/me.png";
 import { useAppContext } from "@/context/page";
+import { useTranslation } from "@/data/language/setLanguage";
 
 const Banner = () => {
     const { language } = useAppContext();
-    console.log(language);
+    const dataLanguage = useTranslation(language);
+
     return (
         <section id="banner">
             <div className="flex flex-row items-center justify-center px-5 lg:px-20 mt-[150px] z-[20]">
@@ -23,7 +25,7 @@ const Banner = () => {
                         />
                     </div>
                     <div className="flex flex-col gap-6 mt-6 mdl:mt-14 cursor-pointer animate-bounce tracking-tighter text-3xl mdl:text-5xl font-semibold text-white max-w-[600px] w-auto h-auto">
-                        พีรพัฒน์ เหมืองหม้อ
+                        {dataLanguage.myName}
                     </div>
                     <p className="text-2xl font-medium tracking-tighter  text-gray-200 max-w-[600px]">
                         Fullstack Developer {" "}
