@@ -6,14 +6,15 @@ import Link from "next/link";
 import { HiMenu } from "react-icons/hi";
 import { useEffect, useState } from "react";
 import { IoMdClose } from "react-icons/io";
-import { handleGetCookieStore, handleLanguageChange } from "@/app/server/serverActions";
+import { handleGetCookieStore, handleLanguageChange } from "@/pages/server/serverActions";
+import { useAppContext } from "@/context/page";
 
 
 
 const Navber = () => {
 
     const [showMenu, setShowMenu] = useState(false);
-    const [language, setLanguage] = useState("");
+    const { language, setLanguage } = useAppContext();
 
     useEffect(() => {
         const fetchLanguage = async () => {
@@ -24,9 +25,9 @@ const Navber = () => {
         };
 
         fetchLanguage();
-    }, []); // โหลดภาษาเมื่อ component ถูกโหลดเป็นครั้งแรก
+    }, [language]);
 
-    const handleClickEnglish = async (language: string) => {
+    const handleClickEnglish = async (language: "EN" | "TH") => {
         await handleLanguageChange(language);
         window.location.reload();
     };

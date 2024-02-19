@@ -1,6 +1,6 @@
 import Slider from "react-slick";
 import ImageWorkDS from "./ImageWorkDS"
-import { dataWorkDuring1, dataWorkDuring2, dataWorkDuring3, dataWorkDuringMobile } from "../data/dataWorkDuring"
+import { dataWorkDuring1, dataWorkDuring2, dataWorkDuring3, dataWorkDuringMobile } from "../../data/dataWorkDuring"
 
 const CarouselWorkDuringStudy = () => {
     const settings = {

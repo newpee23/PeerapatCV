@@ -1,4 +1,4 @@
-import { dataPerformanceWorkPage1, dataPerformanceWorkPage2, dataPerformanceWorkPage3, dataPerformanceWorkPageMobile } from "../data/dataPerformance";
+import { dataPerformanceWorkPage1, dataPerformanceWorkPage2, dataPerformanceWorkPage3, dataPerformanceWorkPageMobile } from "../../data/dataPerformance";
 import ProjectCard from "./ProjectCard";
 import Slider from "react-slick";
 

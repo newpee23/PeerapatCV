@@ -1,4 +1,4 @@
-import { dataIconsSkill, dataIconsTool } from "../data/dataSkill";
+import { dataIconsSkill, dataIconsTool } from "../../data/dataSkill";
 
 
 const SkillIcons = () => {

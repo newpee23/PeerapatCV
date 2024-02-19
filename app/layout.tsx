@@ -8,6 +8,7 @@ import "./globals.css";
 import "@/style/style.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { AppWrapper } from "@/context/page";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -26,8 +27,10 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.className} bg-[#111] overflow-y-scroll overflow-x-hidden`}>
         <StarsBackground />
-        <Navber />
-        {children}
+        <AppWrapper>
+          <Navber />
+          {children}
+        </AppWrapper>
       </body>
     </html>
   );

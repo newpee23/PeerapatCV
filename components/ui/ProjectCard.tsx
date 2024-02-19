@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Popover } from "antd";
-import { performanceArrType } from "../data/dataPerformance";
+import { performanceArrType } from "../../data/dataPerformance";
 import Link from "next/link";
 
 // Icons

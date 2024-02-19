@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { dataWorkDuring } from "../data/dataWorkDuring";
+import { dataWorkDuring } from "../../data/dataWorkDuring";
 
 interface Prop {
     image: dataWorkDuring
