@@ -4,9 +4,8 @@ import ThaiFlag from '@/public/thai.svg';
 import EnglishFlag from '@/public/english.svg';
 import Link from "next/link";
 import { HiMenu } from "react-icons/hi";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { IoMdClose } from "react-icons/io";
-import { handleGetCookieStore, handleLanguageChange } from "@/pages/server/serverActions";
 import { useAppContext } from "@/context/page";
 
 
@@ -16,20 +15,8 @@ const Navber = () => {
     const [showMenu, setShowMenu] = useState(false);
     const { language, setLanguage } = useAppContext();
 
-    useEffect(() => {
-        const fetchLanguage = async () => {
-            const lang = await handleGetCookieStore();
-            if (lang) {
-                setLanguage(lang);
-            }
-        };
-
-        fetchLanguage();
-    }, [language]);
-
     const handleClickEnglish = async (language: "EN" | "TH") => {
-        await handleLanguageChange(language);
-        window.location.reload();
+        setLanguage(language)
     };
 
     return (
