@@ -131,3 +131,7 @@ button.slick-arrow.slick-next {
 .slick-dots {
   bottom: -55px !important;
 }
+
+.ant-divider.css-1rqnfsa.ant-divider-horizontal.ant-divider-with-text.ant-divider-with-text-center.text-white {
+  justify-content: center !important;
+}
