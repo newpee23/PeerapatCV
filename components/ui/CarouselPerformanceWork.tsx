@@ -15,7 +15,7 @@ const CarouselPerformanceWork = () => {
 
     return (
         <div className="w-full">
-            <div className="text-white py-8 min-h-[810px] hidden xl:block">
+            <div className="text-white py-8 xl:min-h-[810px] hidden xl:block">
                 <Slider {...settings}>
                     <div>
                         <div className={`grid gap-4 xl:gap-5 grid-cols-3 xl:px-20 m-auto w-full`}>
