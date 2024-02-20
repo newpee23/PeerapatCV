@@ -18,7 +18,7 @@ export const dataWorkDuring1: dataWorkDuring[] = [
     {
         id: 3,
         name: "ภาพที่ 3",
-        base64: "https://firebasestorage.googleapis.com/v0/b/project-nextpos-828f7.appspot.com/o/workDuringStudy%2FResume-Peerapat_pages-to-jpg-0003.jpg?alt=media&token=cd805e6b-21af-4c21-9bfb-c71c388aecd7"
+        base64: "https://firebasestorage.googleapis.com/v0/b/project-nextpos-828f7.appspot.com/o/workDuringStudy%2FResume-Peerapat_pages-to-jpg-0004.jpg?alt=media&token=b197e1a7-5fd8-42f0-a87c-383ba43f5ecf"
     }
 ]
 
