@@ -5,14 +5,14 @@ import Link from "next/link";
 
 // Icons
 import { FaGithub, FaRegFilePdf } from "react-icons/fa6";
-import { useAppContext } from "@/context/page";
 
 interface Prop {
     items: performanceArrType
+    language: "EN" | "TH"
 }
 
-const ProjectCard = ({ items }: Prop) => {
-    const { language } = useAppContext();
+const ProjectCard = ({ items, language }: Prop) => {
+    console.log("items",items)
     return (
         <div className="project-card shadow-boxShadow p-5 z-[1] m-auto group">
             <div className="project-img">
