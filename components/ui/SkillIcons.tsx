@@ -1,12 +1,17 @@
 import { dataIconsSkill, dataIconsTool } from "../../data/dataSkill";
-
+import { useAppContext } from "@/context/page";
+import { useTranslation } from "@/data/language/setLanguage";
 
 const SkillIcons = () => {
+    
+    const { language } = useAppContext();
+    const dataLanguage = useTranslation(language);
+
     return (
         <div className="flex py-7 items-start justify-center max-w-[1200px] bg-white bg-blend-normal bg-opacity-5 rounded-md shadow-lg">
             <div className="w-full lg:w-6/12 border-l-solid">
                 <div className="text-center">
-                    <p className="mb-3 text-lg text-white">ภาษา</p>
+                    <p className="mb-3 text-lg text-white">{dataLanguage.skillLanguages}</p>
                 </div>
                 <div className="flex justify-between mdl:justify-center p-8 lg:p-0 xl:justify-start flex-wrap mt-[-20px] lg:px-10 text-center">
                     {dataIconsSkill.map((iconData) => (
@@ -23,7 +28,7 @@ const SkillIcons = () => {
             </div>
             <div className="w-full lg:w-6/12">
                 <div className="text-center">
-                    <p className="mb-3 text-lg text-white">เครื่องมือ</p>
+                    <p className="mb-3 text-lg text-white">{dataLanguage.skillTools}</p>
                 </div>
                 <div className="flex justify-between mdl:justify-center p-8 lg:p-0 xl:justify-start flex-wrap mt-[-20px] lg:px-10">
                     {dataIconsTool.map((iconData) => (

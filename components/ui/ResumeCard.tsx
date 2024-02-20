@@ -1,3 +1,6 @@
+import { useAppContext } from "@/context/page";
+import { useTranslation } from "@/data/language/setLanguage";
+
 interface Prop {
     title: string;
     subTitle: string;
@@ -7,6 +10,10 @@ interface Prop {
 }
 
 const ResumeCard = ({ title, subTitle, gpa, description, descriptionArr }: Prop) => {
+    
+    const { language } = useAppContext();
+    const dataLanguage = useTranslation(language);
+
     return (
         <div className="w-full h-1/3 group flex z-[1] min-w-[360px] mb-5 lg:mb-0">
             <div className="w-10 h-[6px] bgOpacity mt-16 relative hidden xl:block">
@@ -33,7 +40,7 @@ const ResumeCard = ({ title, subTitle, gpa, description, descriptionArr }: Prop)
                 <div className="text-sm md:text-base text-gray-400 group-hover:text-gray-300 duration-300">
                     {(descriptionArr && descriptionArr.length > 0) ?
                         <div>
-                            <div className="font-medium">หน้าที่ที่รับผิดชอบ</div>
+                            <div className="font-medium">{dataLanguage.resumeResponsibilities}</div>
                             {descriptionArr.map((v, index) => (
                                 <div key={index}><span>- {v}</span></div>
                             ))}
