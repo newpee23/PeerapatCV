@@ -111,7 +111,7 @@ img.ant-image-img.css-dev-only-do-not-override-1rqnfsa {
   height: 3px !important;
 }
 
-:where(.css-1rqnfsa).ant-divider-horizontal.ant-divider-with-text::before, 
+:where(.css-1rqnfsa).ant-divider-horizontal.ant-divider-with-text::before,
 :where(.css-1rqnfsa).ant-divider-horizontal.ant-divider-with-text::after {
   background-color: #fb923c !important;
   max-width: 500px !important;
@@ -135,3 +135,16 @@ button.slick-arrow.slick-next {
 .ant-divider.css-1rqnfsa.ant-divider-horizontal.ant-divider-with-text.ant-divider-with-text-center.text-white {
   justify-content: center !important;
 }
+
+.show-detail-card {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.clamp-unset {
+  -webkit-line-clamp: unset !important;
+}
+

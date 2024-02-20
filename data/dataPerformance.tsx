@@ -35,6 +35,7 @@ export interface performanceArrType {
     detailGithub: string;
 }
 
+
 export const dataPerformanceWorkPage1: performanceArrType[] = [
     {
         id: 1,
@@ -445,58 +446,7 @@ export const dataPerformanceWorkPage2: performanceArrType[] = [
     },
 ];
 
-export const dataPerformanceWorkPage3: performanceArrType[] = [
-    {
-        id: 13,
-        image: image13,
-        title: "รายละเอียด",
-        detail: "เป็นโปรเจคที่เกี่ยว Frontend Javascript เป็นการฝึกส่วนของการแสดงผลหน้าเว็บไซต์",
-        detailIcon: "เทคโนโลยีหลักที่ใช้",
-        icon: [
-            {
-                name: "Reactjs",
-                icon: GrReactjs
-            },
-            {
-                name: "Javascript",
-                icon: RiJavascriptFill
-            },
-            {
-                name: "Tailwind",
-                icon: SiTailwindcss
-            },
-        ],
-        github: "https://github.com/newpee23/ToDoListStorageKey",
-        namePdf: "https://firebasestorage.googleapis.com/v0/b/project-nextpos-828f7.appspot.com/o/performance%2F13.pdf?alt=media&token=ca227d3b-56af-4b11-aebc-8a9f87589e53",
-        detailPdf: "ภาพตัวอย่าง",
-        detailGithub: "source code",
-    },
-    {
-        id: 14,
-        image: image14,
-        title: "รายละเอียด",
-        detail: "เป็นโปรเจคที่เกี่ยว Frontend Javascript เป็นการฝึกส่วนของการแสดงผลหน้าเว็บไซต์",
-        detailIcon: "เทคโนโลยีหลักที่ใช้",
-        icon: [
-            {
-                name: "Reactjs",
-                icon: GrReactjs
-            },
-            {
-                name: "Javascript",
-                icon: RiJavascriptFill
-            },
-            {
-                name: "Tailwind",
-                icon: SiTailwindcss
-            },
-        ],
-        github: "https://github.com/newpee23/React-Restapi-Pokeapi",
-        namePdf: "https://firebasestorage.googleapis.com/v0/b/project-nextpos-828f7.appspot.com/o/performance%2F14.pdf?alt=media&token=e7dd42fb-3e96-4cda-a0a2-3c4b812e853e",
-        detailPdf: "ภาพตัวอย่าง",
-        detailGithub: "source code",
-    },
-];
+
 
 export const dataPerformanceWorkPageMobile: performanceArrType[] = [
     {

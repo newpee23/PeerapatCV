@@ -5,15 +5,16 @@ import Link from "next/link";
 
 // Icons
 import { FaGithub, FaRegFilePdf } from "react-icons/fa6";
+import { useAppContext } from "@/context/page";
 
 interface Prop {
     items: performanceArrType
 }
 
 const ProjectCard = ({ items }: Prop) => {
-
+    const { language } = useAppContext();
     return (
-        <div className="project-card shadow-boxShadow p-5 z-[1] m-auto">
+        <div className="project-card shadow-boxShadow p-5 z-[1] m-auto group">
             <div className="project-img">
                 <Image
                     className="w-full h-auto rounded-md"
@@ -27,8 +28,14 @@ const ProjectCard = ({ items }: Prop) => {
             <div className="project-title m-[-10px] text-sm px-3">
                 <h2>{items.title}</h2>
             </div>
-            <div className="text-xs mt-3 text-justify text-gray-300 h-[35px]">
-                <p className="text-indent-2">{items.detail}</p>
+            <div className={`text-xs mt-3 text-gray-300 h-[35px] duration-300`}>
+                {language === "EN" ?
+                    <Popover content={items.detail} trigger="hover">
+                        <p className="text-indent-2 show-detail-card cursor-pointer">{items.detail}</p>
+                    </Popover>
+                    :
+                    <p className="text-indent-2 show-detail-card">{items.detail}</p>
+                }
             </div>
             <div className="project-title text-sm">
                 <h2>{items.detailIcon}</h2>

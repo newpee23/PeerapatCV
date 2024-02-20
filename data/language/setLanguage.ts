@@ -34,6 +34,24 @@ export interface languageType {
     resumeEdSchool2EN: string;
     resumeEdMajor2: string;
     resumeEdGpa2: string;
+    performance: string;
+    performanceDetail: string;
+    performanceTechnology: string;
+    performancePickger: string;
+    performanceDetailCard1: string;
+    performanceDetailCard2: string;
+    performanceDetailCard3: string;
+    performanceDetailCard4: string;
+    performanceDetailCard5: string;
+    performanceDetailCard6: string;
+    performanceDetailCard7: string;
+    performanceDetailCard8: string;
+    performanceDetailCard9: string;
+    performanceDetailCard10: string;
+    performanceDetailCard11: string;
+    performanceDetailCard12: string;
+    performanceDetailCard13: string;
+    performanceDetailCard14: string;
 }
 
 export const useTranslation = (language : "EN" | "TH") => {

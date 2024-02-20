@@ -32,5 +32,24 @@ export const dataEn: languageType = {
     resumeEdSchool2: "Phiriyalai School Phrae",
     resumeEdSchool2EN: "โรงเรียนพิริยาลัยจังหวัดแพร่",
     resumeEdMajor2: "Computer Arts",
-    resumeEdGpa2: "Not Specified"
+    resumeEdGpa2: "Not Specified",
+    performance: "Examples of work",
+    performanceDetail: "Detail",
+    performanceTechnology: "Main technology used",
+    performancePickger: "Sample picture",
+    performanceDetailCard1: "It's a project about portfolio details, focusing only on the Frontend part.",
+    performanceDetailCard2: "The main technologies used in the small-scale POS system project, which includes sales system, data management system, and reporting.",
+    performanceDetailCard3: "The project is related to frontend development for a data recording system, which involves managing multiple data entry forms across several pages.",
+    performanceDetailCard4: "The project is related to backend development for a data recording system, which involves managing multiple data entry forms across several pages.",
+    performanceDetailCard5: "The project is about a simple Authentication system, which utilizes Jwt to add an additional layer of identity verification.",
+    performanceDetailCard6: "The project involves creating a CRUD system, which serves as a practice in using Express together with MySQL.",
+    performanceDetailCard7: "The project focuses on frontend development by creating a Todolist, serving as a basic practice in using Zustand.",
+    performanceDetailCard8: "The project involves frontend development using TypeScript to build a shopping cart system, serving as a basic practice in using Redux Toolkit.",
+    performanceDetailCard9: "The project focuses on frontend development using JavaScript to create a shopping cart system. It serves as a basic practice in using Redux Toolkit.",
+    performanceDetailCard10: "The project focuses on frontend development using JavaScript to create a shopping cart system. It serves as a basic practice in using Redux.",
+    performanceDetailCard11: "The project involves Frontend Javascript and serves as a practice in creating UI for web page components.",
+    performanceDetailCard12: "The project focuses on Frontend Javascript and serves as a practice in creating web page display components.",
+    performanceDetailCard13: "The project is related to Frontend Javascript and serves as a practice in creating web page display components.",
+    performanceDetailCard14: "The project involves Frontend Javascript and focuses on practicing web page display components."
+
 }
