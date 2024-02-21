@@ -50,5 +50,6 @@ export const dataTh: languageType = {
     performanceDetailCard11: "เป็นโปรเจคที่เกี่ยว Frontend Javascript เป็นการฝึกสร้าง Ui ส่วนของหน้าเว็บไซต์",
     performanceDetailCard12: "เป็นโปรเจคที่เกี่ยว Frontend Javascript เป็นการฝึกส่วนของการแสดงผลหน้าเว็บไซต์",
     performanceDetailCard13: "เป็นโปรเจคที่เกี่ยว Frontend Javascript เป็นการฝึกส่วนของการแสดงผลหน้าเว็บไซต์",
-    performanceDetailCard14: "เป็นโปรเจคที่เกี่ยว Frontend Javascript เป็นการฝึกส่วนของการแสดงผลหน้าเว็บไซต์"
+    performanceDetailCard14: "เป็นโปรเจคที่เกี่ยว Frontend Javascript เป็นการฝึกส่วนของการแสดงผลหน้าเว็บไซต์",
+    performanceAcademic: "ผลงานระหว่างเรียน"
 }

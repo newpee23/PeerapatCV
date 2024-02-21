@@ -12,9 +12,8 @@ interface Prop {
 }
 
 const ProjectCard = ({ items, language }: Prop) => {
-    console.log("items",items)
     return (
-        <div className="project-card shadow-boxShadow p-5 z-[1] m-auto group">
+        <div className="project-card shadow-boxShadow p-5 z-[1] m-auto">
             <div className="project-img">
                 <Image
                     className="w-full h-auto rounded-md"

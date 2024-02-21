@@ -446,8 +446,6 @@ export const dataPerformanceWorkPage2: performanceArrType[] = [
     },
 ];
 
-
-
 export const dataPerformanceWorkPageMobile: performanceArrType[] = [
     {
         id: 1,

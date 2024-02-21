@@ -52,6 +52,7 @@ export interface languageType {
     performanceDetailCard12: string;
     performanceDetailCard13: string;
     performanceDetailCard14: string;
+    performanceAcademic: string;
 }
 
 export const useTranslation = (language : "EN" | "TH") => {

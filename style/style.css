@@ -63,8 +63,8 @@ span.ant-divider-inner-text {
   width: 310px;
   height: auto;
   background: rgba(5, 0, 0, 0.3);
-  backdrop-filter: blur(6px);
-  -webkit-backdrop-filter: blur(6px);
+  /* backdrop-filter: blur(6px); */
+  /* -webkit-backdrop-filter: blur(6px); */
   border: 1px 0 solid rgba(255, 255, 255, 0.18);
   border-radius: 15px;
   transition: 0.2s all ease-in-out;
