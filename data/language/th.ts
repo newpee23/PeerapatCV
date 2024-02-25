@@ -27,7 +27,7 @@ export const dataTh: languageType = {
     resumeEdHistory: "ประวัติการศึกษา",
     resumeEdSchool1: "มหาวิทยาลัยพะเยา",
     resumeEdSchool1EN: "University of Phayao",
-    resumeEdMajor1: "คณะเทคโนโลยีสารสนเทศและการสื่อสาร",
+    resumeEdMajor1: "สาขา : เทคโนโลยีสารสนเทศ (IT)",
     resumeEdGpa1: "3.33 GPA",
     resumeEdSchool2: "โรงเรียนพิริยาลัยจังหวัดแพร่",
     resumeEdSchool2EN: "Phiriyalai School Phrae",

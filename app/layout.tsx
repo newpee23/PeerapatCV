@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import StarsBackground from "@/components/main/StarsBackground";
-import Navber from "@/components/Navber";
+import Navber from "@/components/Navbar";
 
 // CSS
 import "./globals.css";

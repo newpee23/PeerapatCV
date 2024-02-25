@@ -23,18 +23,6 @@ const Navber = () => {
         <nav className="w-full h-[65px] bg-['#ffff'] fixed backdrop-blur-sm z-50 lg:px-10">
             <div className="w-full h-full flex flex-row items-center justify-between m-auto px-10">
                 <div className="z-[1] bg-transparent bg-black rounded-xl px-4 flex items-center">
-                    <span className={`ml-3 ${language === "EN" ? 'text-orange-500' : 'text-white'}`}>EN</span>
-                    <Image
-                        onClick={() => handleClickEnglish("EN")}
-                        src={EnglishFlag}
-                        alt="logo"
-                        width={80}
-                        height={80}
-                        sizes="100vw"
-                        className="w-[23px] mx-1 h-auto transition-transform transform hover:scale-150 z-10 duration-300 cursor-pointer"
-                        priority={true}
-                    />
-
                     <span className={`ml-3 ${language === "TH" ? 'text-orange-500' : 'text-white'}`}>TH</span>
                     <Image
                         onClick={() => handleClickEnglish("TH")}
@@ -44,6 +32,17 @@ const Navber = () => {
                         height={80}
                         sizes="100vw"
                         className="w-[30px] h-auto transition-transform transform hover:scale-150 z-10 duration-300 cursor-pointer"
+                        priority={true}
+                    />
+                    <span className={`ml-3 ${language === "EN" ? 'text-orange-500' : 'text-white'}`}>EN</span>
+                    <Image
+                        onClick={() => handleClickEnglish("EN")}
+                        src={EnglishFlag}
+                        alt="logo"
+                        width={80}
+                        height={80}
+                        sizes="100vw"
+                        className="w-[23px] mx-1 h-auto transition-transform transform hover:scale-150 z-10 duration-300 cursor-pointer"
                         priority={true}
                     />
                 </div>

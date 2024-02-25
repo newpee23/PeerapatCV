@@ -8,7 +8,7 @@ type ContextType = {
     setLanguage: React.Dispatch<React.SetStateAction<Language>>;
 };
 
-const defaultLanguage: Language = "EN"; // Default language
+const defaultLanguage: Language = "TH"; // Default language
 
 const AppContext = createContext<ContextType>({
     language: defaultLanguage,

@@ -4,11 +4,11 @@ import { BiLogoTypescript, BiLogoRedux, BiLogoPostgresql, BiLogoMongodb } from "
 import { RiJavascriptFill } from "react-icons/ri";
 import { IoLogoHtml5, IoLogoCss3 } from "react-icons/io";
 import { BsFillBootstrapFill } from "react-icons/bs";
-import { SiTailwindcss, SiAntdesign, SiPostman, SiMui, SiVite , SiReactquery, SiJquery, SiExpress, SiCodeigniter, SiPrisma, SiMysql, SiFirebase, SiBitbucket, SiGithub, SiSourcetree, SiJira, SiMicrosoftsqlserver, SiAdminer, SiFilezilla, SiXampp, SiJsonwebtokens } from "react-icons/si";
+import { SiTailwindcss, SiAntdesign, SiPostman, SiMui, SiVite, SiReactquery, SiJquery, SiExpress, SiCodeigniter, SiPrisma, SiMysql, SiFirebase, SiBitbucket, SiGithub, SiSourcetree, SiJira, SiMicrosoftsqlserver, SiAdminer, SiFilezilla, SiXampp, SiJsonwebtokens } from "react-icons/si";
 import { VscJson } from "react-icons/vsc";
 import { DiPhp } from "react-icons/di";
 import { FaAws } from "react-icons/fa";
-import { FaGitAlt } from "react-icons/fa6";
+import { FaDocker, FaGitAlt } from "react-icons/fa6";
 
 interface iconsArrType {
     id: number;
@@ -213,6 +213,11 @@ export const dataIconsTool: iconsArrType[] = [
     , {
         id: 39,
         title: "Jsonwebtokens",
-        icon: SiJsonwebtokens 
+        icon: SiJsonwebtokens
+    }
+    , {
+        id: 40,
+        title: "Docker",
+        icon: FaDocker
     }
 ];
