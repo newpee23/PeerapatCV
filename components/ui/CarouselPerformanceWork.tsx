@@ -3,7 +3,6 @@ import ProjectCard from "./ProjectCard";
 import Slider from "react-slick";
 
 //  Icons
-import { StaticImageData } from "next/image";
 import { BiLogoMongodb, BiLogoPostgresql, BiLogoRedux, BiLogoTypescript } from "react-icons/bi";
 import { SiAntdesign, SiExpress, SiFirebase, SiJsonwebtokens, SiMui, SiMysql, SiPostman, SiPrisma, SiReactquery, SiTailwindcss, SiVite, SiXampp } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
@@ -25,9 +24,11 @@ import image11 from "@/public/imgProject/vitejsCrudMysql/1.png";
 import image12 from "@/public/imgProject/vitejsWeatherApp/1.png";
 import image13 from "@/public/imgProject/todolistStorageKey/1.png";
 import image14 from "@/public/imgProject/reactRestapiPokeapi/2.png";
+import image15 from "@/public/imgProject/crudDockerExpress/1.png";
 
 import { useAppContext } from "@/context/page";
 import { useTranslation } from "@/data/language/setLanguage";
+import { FaDocker } from "react-icons/fa6";
 
 const CarouselPerformanceWork = () => {
 
@@ -505,6 +506,39 @@ const CarouselPerformanceWork = () => {
             detailPdf: dataLanguage.performancePickger,
             detailGithub: "source code",
         },
+        {
+            id: 15,
+            image: image15,
+            title: dataLanguage.performanceDetail,
+            detail: dataLanguage.performanceDetailCard15,
+            detailIcon: dataLanguage.performanceTechnology,
+            icon: [
+                {
+                    name: "Express",
+                    icon: SiExpress
+                },
+                {
+                    name: "Typescript",
+                    icon: BiLogoTypescript
+                },
+                {
+                    name: "Docker",
+                    icon: FaDocker
+                },
+                {
+                    name: "Mysql",
+                    icon: SiMysql
+                },
+                {
+                    name: "Postman",
+                    icon: SiPostman
+                },
+            ],
+            github: "https://github.com/newpee23/dockerTypescriptBaseExpress",
+            namePdf: "",
+            detailPdf: dataLanguage.performancePickger,
+            detailGithub: "source code",
+        },
     ];
 
     const dataPerformanceWorkPageMobile: performanceArrType[] = [
@@ -959,6 +993,39 @@ const CarouselPerformanceWork = () => {
             ],
             github: "https://github.com/newpee23/React-Restapi-Pokeapi",
             namePdf: "https://firebasestorage.googleapis.com/v0/b/project-nextpos-828f7.appspot.com/o/performance%2F14.pdf?alt=media&token=e7dd42fb-3e96-4cda-a0a2-3c4b812e853e",
+            detailPdf: dataLanguage.performancePickger,
+            detailGithub: "source code",
+        },
+        {
+            id: 15,
+            image: image15,
+            title: dataLanguage.performanceDetail,
+            detail: dataLanguage.performanceDetailCard14,
+            detailIcon: dataLanguage.performanceTechnology,
+            icon: [
+                {
+                    name: "Express",
+                    icon: SiExpress
+                },
+                {
+                    name: "Typescript",
+                    icon: BiLogoTypescript
+                },
+                {
+                    name: "Docker",
+                    icon: FaDocker
+                },
+                {
+                    name: "Mysql",
+                    icon: SiMysql
+                },
+                {
+                    name: "Postman",
+                    icon: SiPostman
+                },
+            ],
+            github: "https://github.com/newpee23/dockerTypescriptBaseExpress",
+            namePdf: "",
             detailPdf: dataLanguage.performancePickger,
             detailGithub: "source code",
         },

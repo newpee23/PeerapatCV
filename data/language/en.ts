@@ -51,5 +51,6 @@ export const dataEn: languageType = {
     performanceDetailCard12: "The project focuses on Frontend Javascript and serves as a practice in creating web page display components.",
     performanceDetailCard13: "The project is related to Frontend Javascript and serves as a practice in creating web page display components.",
     performanceDetailCard14: "The project involves Frontend Javascript and focuses on practicing web page display components.",
+    performanceDetailCard15: "This is a project related to the backend of a data logging system, focusing on practicing the utilization of Docker Compose for basic functionality.",
     performanceAcademic: "Academic performance"
 }
