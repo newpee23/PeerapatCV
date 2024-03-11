@@ -52,5 +52,7 @@ export const dataEn: languageType = {
     performanceDetailCard13: "The project is related to Frontend Javascript and serves as a practice in creating web page display components.",
     performanceDetailCard14: "The project involves Frontend Javascript and focuses on practicing web page display components.",
     performanceDetailCard15: "This is a project related to the backend of a data logging system, focusing on practicing the utilization of Docker Compose for basic functionality.",
+    performanceDetailCard16: "The project is about the backend, focusing on learning the basics of Go Fiber.",
+    performanceDetailCard17: "The project involves backend development, focusing on learning to use Go Fiber to create a basic REST API along with connecting to a database.",
     performanceAcademic: "Academic performance"
 }

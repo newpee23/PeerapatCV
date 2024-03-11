@@ -25,10 +25,11 @@ import image12 from "@/public/imgProject/vitejsWeatherApp/1.png";
 import image13 from "@/public/imgProject/todolistStorageKey/1.png";
 import image14 from "@/public/imgProject/reactRestapiPokeapi/2.png";
 import image15 from "@/public/imgProject/crudDockerExpress/1.png";
+import image16 from "@/public/imgProject/goFiber/1.png";
 
 import { useAppContext } from "@/context/page";
 import { useTranslation } from "@/data/language/setLanguage";
-import { FaDocker } from "react-icons/fa6";
+import { FaDocker, FaGolang } from "react-icons/fa6";
 
 const CarouselPerformanceWork = () => {
 
@@ -539,6 +540,56 @@ const CarouselPerformanceWork = () => {
             detailPdf: dataLanguage.performancePickger,
             detailGithub: "source code",
         },
+        {
+            id: 16,
+            image: image16,
+            title: dataLanguage.performanceDetail,
+            detail: dataLanguage.performanceDetailCard16,
+            detailIcon: dataLanguage.performanceTechnology,
+            icon: [
+                {
+                    name: "Go Fiber",
+                    icon: FaGolang
+                },
+                {
+                    name: "Postman",
+                    icon: SiPostman
+                },
+            ],
+            github: "https://github.com/newpee23/GoFiberExample1",
+            namePdf: "",
+            detailPdf: dataLanguage.performancePickger,
+            detailGithub: "source code",
+        },
+        {
+            id: 17,
+            image: image16,
+            title: dataLanguage.performanceDetail,
+            detail: dataLanguage.performanceDetailCard17,
+            detailIcon: dataLanguage.performanceTechnology,
+            icon: [
+                {
+                    name: "Go Fiber",
+                    icon: FaGolang
+                },
+                {
+                    name: "Docker",
+                    icon: FaDocker
+                },
+                {
+                    name: "Postgresql",
+                    icon: BiLogoPostgresql
+                },
+                {
+                    name: "Postman",
+                    icon: SiPostman
+                },
+            ],
+            github: "https://github.com/newpee23/GoFiberExample2",
+            namePdf: "",
+            detailPdf: dataLanguage.performancePickger,
+            detailGithub: "source code",
+        },
     ];
 
     const dataPerformanceWorkPageMobile: performanceArrType[] = [
@@ -1025,6 +1076,56 @@ const CarouselPerformanceWork = () => {
                 },
             ],
             github: "https://github.com/newpee23/dockerTypescriptBaseExpress",
+            namePdf: "",
+            detailPdf: dataLanguage.performancePickger,
+            detailGithub: "source code",
+        },
+        {
+            id: 16,
+            image: image16,
+            title: dataLanguage.performanceDetail,
+            detail: dataLanguage.performanceDetailCard16,
+            detailIcon: dataLanguage.performanceTechnology,
+            icon: [
+                {
+                    name: "Go Fiber",
+                    icon: FaGolang
+                },
+                {
+                    name: "Postman",
+                    icon: SiPostman
+                },
+            ],
+            github: "https://github.com/newpee23/GoFiberExample1",
+            namePdf: "",
+            detailPdf: dataLanguage.performancePickger,
+            detailGithub: "source code",
+        },
+        {
+            id: 17,
+            image: image16,
+            title: dataLanguage.performanceDetail,
+            detail: dataLanguage.performanceDetailCard17,
+            detailIcon: dataLanguage.performanceTechnology,
+            icon: [
+                {
+                    name: "Go Fiber",
+                    icon: FaGolang
+                },
+                {
+                    name: "Docker",
+                    icon: FaDocker
+                },
+                {
+                    name: "Postgresql",
+                    icon: BiLogoPostgresql
+                },
+                {
+                    name: "Postman",
+                    icon: SiPostman
+                },
+            ],
+            github: "https://github.com/newpee23/GoFiberExample2",
             namePdf: "",
             detailPdf: dataLanguage.performancePickger,
             detailGithub: "source code",

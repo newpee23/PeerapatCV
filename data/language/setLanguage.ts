@@ -53,6 +53,8 @@ export interface languageType {
     performanceDetailCard13: string;
     performanceDetailCard14: string;
     performanceDetailCard15: string;
+    performanceDetailCard16: string;
+    performanceDetailCard17: string;
     performanceAcademic: string;
 }
 

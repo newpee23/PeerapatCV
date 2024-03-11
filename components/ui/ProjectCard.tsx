@@ -48,10 +48,10 @@ const ProjectCard = ({ items, language }: Prop) => {
                     </Popover>
                 ))}
             </div>
-            <div className={`flex gap-3 text-2xl mt-4 ${(items.id === 4 || items.id === 15) ? 'justify-end' : 'justify-between'}`}>
+            <div className={`flex gap-3 text-2xl mt-4 ${(items.id === 4 || items.id === 15 || items.id === 16 || items.id === 17) ? 'justify-end' : 'justify-between'}`}>
                 <Popover content={items.detailPdf} trigger="hover">
                     <Link href={items.namePdf} target="_blank">
-                        <div className={`${(items.id === 4 || items.id === 15) && 'hidden'}`}>
+                        <div className={`${(items.id === 4 || items.id === 15 || items.id === 16 || items.id === 17) && 'hidden'}`}>
                             <span className="cursor-pointer transition-transform transform hover:scale-150 duration-300">
                                 <FaRegFilePdf />
                             </span>

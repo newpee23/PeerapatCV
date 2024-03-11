@@ -5,10 +5,9 @@ import { RiJavascriptFill } from "react-icons/ri";
 import { IoLogoHtml5, IoLogoCss3 } from "react-icons/io";
 import { BsFillBootstrapFill } from "react-icons/bs";
 import { SiTailwindcss, SiAntdesign, SiPostman, SiMui, SiVite, SiReactquery, SiJquery, SiExpress, SiCodeigniter, SiPrisma, SiMysql, SiFirebase, SiBitbucket, SiGithub, SiSourcetree, SiJira, SiMicrosoftsqlserver, SiAdminer, SiFilezilla, SiXampp, SiJsonwebtokens } from "react-icons/si";
-import { VscJson } from "react-icons/vsc";
 import { DiPhp } from "react-icons/di";
 import { FaAws } from "react-icons/fa";
-import { FaDocker, FaGitAlt } from "react-icons/fa6";
+import { FaDocker, FaGitAlt, FaGolang } from "react-icons/fa6";
 
 interface iconsArrType {
     id: number;
@@ -89,28 +88,28 @@ export const dataIconsSkill: iconsArrType[] = [
     }
     , {
         id: 15,
-        title: "Json",
-        icon: VscJson
-    }
-    , {
-        id: 16,
         title: "Nodejs",
         icon: TbBrandNodejs
     }
     , {
-        id: 17,
+        id: 16,
         title: "Express",
         icon: SiExpress
     }
     , {
-        id: 18,
+        id: 17,
         title: "Php",
         icon: DiPhp
     }
     , {
-        id: 19,
+        id: 18,
         title: "Codeigniter3",
         icon: SiCodeigniter
+    }
+    , {
+        id: 19,
+        title: "Go Fiber",
+        icon: FaGolang
     }
     , {
         id: 20,
