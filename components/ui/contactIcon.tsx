@@ -31,7 +31,7 @@ const ContactIcon = ({ iconsName }: Props) => {
         if (iconsName === "phone") return `${dataLanguage.bannerPhone} : 080-08430371`;
         if (iconsName === "line") return `${dataLanguage.bannerLine} : newlou234`;
         if (iconsName === "github") return `${dataLanguage.bannerGit} : github.com/newpee23`;
-        if (iconsName === "mail") return `${dataLanguage.bannerEmail} : newp231612@gmail.com`;
+        if (iconsName === "mail") return `${dataLanguage.bannerEmail} : peerapat24m@gmail.com`;
 
         return "";
     }

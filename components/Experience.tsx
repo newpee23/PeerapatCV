@@ -13,7 +13,7 @@ const Experience = () => {
             <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4 lg:px-11">
                 <h2 className="text-xl md:text-3xl font-bold">{dataLanguage.resumeEx}</h2>
                 <div className="z-[1] mt-[-5px] cursor-pointer text-sm text-orange-500 tracking-[4px] hover:text-white hover:bg-orange-500 hover:p-3 hover:text-center rounded-md hover:shadow-lg max-w-[240px] text-center duration-300">
-                    <Link href="https://firebasestorage.googleapis.com/v0/b/project-nextpos-828f7.appspot.com/o/meResume.pdf?alt=media&token=d111a01f-dac4-46a0-b187-6dcb89b38cd7" target="_blank">
+                    <Link href="https://firebasestorage.googleapis.com/v0/b/project-nextpos-828f7.appspot.com/o/myResume.pdf?alt=media&token=c7d34b2e-a931-48c2-be6a-bdde8faa32f6" target="_blank">
                         <p>Download Resume</p>
                     </Link>
                 </div>
